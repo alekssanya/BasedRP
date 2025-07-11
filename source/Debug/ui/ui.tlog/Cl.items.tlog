@@ -1,0 +1,13 @@
+C:\MyProjects\BasedRP\source\game\bg_misc.c;C:\MyProjects\BasedRP\source\Debug\ui\bg_misc.obj
+C:\MyProjects\BasedRP\source\game\bg_saga.c;C:\MyProjects\BasedRP\source\Debug\ui\bg_saga.obj
+C:\MyProjects\BasedRP\source\game\bg_vehicleLoad.c;C:\MyProjects\BasedRP\source\Debug\ui\bg_vehicleLoad.obj
+C:\MyProjects\BasedRP\source\game\bg_weapons.c;C:\MyProjects\BasedRP\source\Debug\ui\bg_weapons.obj
+C:\MyProjects\BasedRP\source\game\q_math.c;C:\MyProjects\BasedRP\source\Debug\ui\q_math.obj
+C:\MyProjects\BasedRP\source\game\q_shared.c;C:\MyProjects\BasedRP\source\Debug\ui\q_shared.obj
+C:\MyProjects\BasedRP\source\ui\ui_atoms.c;C:\MyProjects\BasedRP\source\Debug\ui\ui_atoms.obj
+C:\MyProjects\BasedRP\source\ui\ui_force.c;C:\MyProjects\BasedRP\source\Debug\ui\ui_force.obj
+C:\MyProjects\BasedRP\source\ui\ui_gameinfo.c;C:\MyProjects\BasedRP\source\Debug\ui\ui_gameinfo.obj
+C:\MyProjects\BasedRP\source\ui\ui_main.c;C:\MyProjects\BasedRP\source\Debug\ui\ui_main.obj
+C:\MyProjects\BasedRP\source\ui\ui_saber.c;C:\MyProjects\BasedRP\source\Debug\ui\ui_saber.obj
+C:\MyProjects\BasedRP\source\ui\ui_shared.c;C:\MyProjects\BasedRP\source\Debug\ui\ui_shared.obj
+C:\MyProjects\BasedRP\source\ui\ui_syscalls.c;C:\MyProjects\BasedRP\source\Debug\ui\ui_syscalls.obj

@@ -1,0 +1,621 @@
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_maxHolocronCarry\3\g_privateDuel\1\g_saberLocking\1\g_maxForceRank\6\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\sv_allowDownload\0\g_siegeTeamSwitch\1\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_maxGameClients\0\g_jediVmerc\0\g_allowNPC\1\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_siegeTeam1\none\g_siegeTeam2\none\g_showDuelHealths\0\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:34 ShutdownGame:
+  0:34 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:50 ShutdownGame:
+  0:50 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:13 ShutdownGame:
+  0:13 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:23 ShutdownGame:
+  0:23 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:08 say: Padawan: login qwe 321
+  0:21 ShutdownGame:
+  0:21 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:22 ShutdownGame:
+  0:22 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:09 ShutdownGame:
+  0:09 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  2:00 ShutdownGame:
+  2:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  1:35 setteam:  0 SPECTATOR FREE
+  1:35 ClientBegin: 0
+  1:53 setteam:  0 SPECTATOR FREE
+  1:53 ClientBegin: 0
+  1:59 setteam:  0 SPECTATOR FREE
+  1:59 ClientBegin: 0
+  2:02 Kill: 0 0 39: Padawan killed Padawan by MOD_SUICIDE
+  3:06 Kill: 0 0 39: Padawan killed Padawan by MOD_SUICIDE
+  3:08 ShutdownGame:
+  3:08 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:19 setteam:  0 SPECTATOR FREE
+  0:19 ClientBegin: 0
+  0:34 setteam:  0 SPECTATOR FREE
+  0:34 ClientBegin: 0
+  0:37 Kill: 0 0 39: Padawan killed Padawan by MOD_SUICIDE
+  0:49 ShutdownGame:
+  0:49 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:18 setteam:  0 SPECTATOR FREE
+  0:18 ClientBegin: 0
+  0:24 setteam:  0 SPECTATOR FREE
+  0:24 ClientBegin: 0
+  0:29 Kill: 0 0 39: Padawan killed Padawan by MOD_SUICIDE
+  0:33 Kill: 0 0 39: Padawan killed Padawan by MOD_SUICIDE
+  0:40 ShutdownGame:
+  0:40 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ShutdownGame:
+  0:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:13 setteam:  0 SPECTATOR FREE
+  0:13 ClientBegin: 0
+  1:55 setteam:  0 SPECTATOR FREE
+  1:55 ClientBegin: 0
+  2:02 Kill: 1022 0 38: <world> killed Padawan by MOD_FALLING
+  2:40 Kill: 0 0 39: Padawan killed Padawan by MOD_SUICIDE
+  3:04 Kill: 0 0 39: Padawan killed Padawan by MOD_SUICIDE
+  3:32 Kill: 0 0 39: Padawan killed Padawan by MOD_SUICIDE
+  4:18 Item: 0 item_medpak_instant
+  4:30 ShutdownGame:
+  4:30 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:13 setteam:  0 SPECTATOR FREE
+  0:13 ClientBegin: 0
+  0:20 ShutdownGame:
+  0:20 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:03 ShutdownGame:
+  0:03 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:05 setteam:  0 SPECTATOR FREE
+  0:05 ClientBegin: 0
+  0:11 ShutdownGame:
+  0:11 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:10 setteam:  0 SPECTATOR FREE
+  0:10 ClientBegin: 0
+  1:04 Kill: 0 0 39: Padawan killed Padawan by MOD_SUICIDE
+  1:36 ShutdownGame:
+  1:36 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:09 setteam:  0 SPECTATOR FREE
+  0:09 ClientBegin: 0
+  0:14 ShutdownGame:
+  0:14 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:08 ShutdownGame:
+  0:08 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:11 setteam:  0 SPECTATOR FREE
+  0:11 ClientBegin: 0
+  1:51 Kill: 0 0 39: Padawan killed Padawan by MOD_SUICIDE
+  2:38 Kill: 1022 0 38: <world> killed Padawan by MOD_FALLING
+  2:54 ShutdownGame:
+  2:54 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:10 setteam:  0 SPECTATOR FREE
+  0:10 ClientBegin: 0
+  3:19 ShutdownGame:
+  3:19 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:19 setteam:  0 SPECTATOR FREE
+  0:19 ClientBegin: 0
+  0:44 Kill: 0 0 39: Padawan killed Padawan by MOD_SUICIDE
+  0:47 ShutdownGame:
+  0:47 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:04 setteam:  0 SPECTATOR FREE
+  0:04 ClientBegin: 0
+  0:19 Kill: 0 0 39: Padawan killed Padawan by MOD_SUICIDE
+  0:24 ShutdownGame:
+  0:24 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:13 setteam:  0 SPECTATOR FREE
+  0:13 ClientBegin: 0
+  0:19 setteam:  0 SPECTATOR FREE
+  0:19 ClientBegin: 0
+  0:23 Kill: 0 0 39: Padawan killed Padawan by MOD_SUICIDE
+  0:28 ShutdownGame:
+  0:28 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:08 ShutdownGame:
+  0:08 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:05 ShutdownGame:
+  0:05 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:05 setteam:  0 SPECTATOR FREE
+  0:05 ClientBegin: 0
+  0:22 ShutdownGame:
+  0:22 ------------------------------------------------------------
+  0:22 ------------------------------------------------------------
+  0:22 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\kor2\sv_privateClients\0\sv_allowDownload\0\bot_minplayers\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:22 ClientConnect: 0
+  0:22 Padawan^7 connected with IP: 
+  0:23 ClientBegin: 0
+  0:28 setteam:  0 SPECTATOR FREE
+  0:28 ClientBegin: 0
+  0:38 Kill: 1022 125 3: <world> killed  by MOD_SABER
+  0:43 Kill: 1022 0 3: <world> killed Padawan by MOD_SABER
+  0:48 ShutdownGame:
+  0:48 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:09 ShutdownGame:
+  0:09 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:34 ShutdownGame:
+  0:34 ------------------------------------------------------------
+  0:34 ------------------------------------------------------------
+  0:34 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\kor2\sv_privateClients\0\sv_allowDownload\0\bot_minplayers\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:34 ClientConnect: 0
+  0:34 Padawan^7 connected with IP: 
+  0:35 ClientBegin: 0
+  0:54 setteam:  0 SPECTATOR FREE
+  0:54 ClientBegin: 0
+  1:08 Kill: 0 119 4: Padawan killed  by MOD_BRYAR_PISTOL
+  1:14 Kill: 0 125 4: Padawan killed  by MOD_BRYAR_PISTOL
+  1:17 Kill: 1022 192 38: <world> killed  by MOD_FALLING
+  3:01 Kill: 1022 0 3: <world> killed Padawan by MOD_SABER
+  3:25 Kill: 1022 123 38: <world> killed  by MOD_FALLING
+  3:35 Kill: 1022 0 38: <world> killed Padawan by MOD_FALLING
+  3:58 Kill: 1022 0 41: <world> killed Padawan by MOD_TRIGGER_HURT
+  5:17 ShutdownGame:
+  5:17 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:12 ShutdownGame:
+  0:12 ------------------------------------------------------------
+  0:12 ------------------------------------------------------------
+  0:12 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\kor2\sv_privateClients\0\sv_allowDownload\0\bot_minplayers\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:12 ClientConnect: 0
+  0:12 Padawan^7 connected with IP: 
+  0:13 ClientBegin: 0
+  0:32 setteam:  0 SPECTATOR FREE
+  0:32 ClientBegin: 0
+  0:47 Kill: 1022 119 38: <world> killed  by MOD_FALLING
+  0:48 Kill: 1022 121 3: <world> killed  by MOD_SABER
+  0:54 Kill: 1022 125 3: <world> killed  by MOD_SABER
+  1:28 ShutdownGame:
+  1:28 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:12 ShutdownGame:
+  0:12 ------------------------------------------------------------
+  0:12 ------------------------------------------------------------
+  0:12 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\kor2\sv_privateClients\0\sv_allowDownload\0\bot_minplayers\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:12 ClientConnect: 0
+  0:12 Padawan^7 connected with IP: 
+  0:13 ClientBegin: 0
+  0:23 setteam:  0 SPECTATOR FREE
+  0:23 ClientBegin: 0
+  0:33 Kill: 1022 119 41: <world> killed  by MOD_TRIGGER_HURT
+  0:35 Kill: 1022 125 3: <world> killed  by MOD_SABER
+  0:44 Kill: 1022 121 3: <world> killed  by MOD_SABER
+  1:49 ShutdownGame:
+  1:49 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:09 ShutdownGame:
+  0:09 ------------------------------------------------------------
+  0:09 ------------------------------------------------------------
+  0:09 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\kor2\sv_privateClients\0\sv_allowDownload\0\bot_minplayers\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:09 ClientConnect: 0
+  0:09 Padawan^7 connected with IP: 
+  0:10 ClientBegin: 0
+  0:17 setteam:  0 SPECTATOR FREE
+  0:17 ClientBegin: 0
+  0:26 Kill: 1022 125 3: <world> killed  by MOD_SABER
+  0:45 Kill: 1022 121 3: <world> killed  by MOD_SABER
+  0:49 ShutdownGame:
+  0:49 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:07 ShutdownGame:
+  0:07 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:06 ShutdownGame:
+  0:06 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:08 ShutdownGame:
+  0:08 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:08 ShutdownGame:
+  0:08 ------------------------------------------------------------
+  0:08 ------------------------------------------------------------
+  0:08 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\kor2\sv_privateClients\0\sv_allowDownload\0\bot_minplayers\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:08 ClientConnect: 0
+  0:08 Padawan^7 connected with IP: 
+  0:09 ClientBegin: 0
+  0:24 setteam:  0 SPECTATOR FREE
+  0:24 ClientBegin: 0
+  0:37 Kill: 1022 123 3: <world> killed  by MOD_SABER
+  0:37 Kill: 1022 192 3: <world> killed  by MOD_SABER
+  0:42 Kill: 1022 125 3: <world> killed  by MOD_SABER
+  0:58 Kill: 1022 119 3: <world> killed  by MOD_SABER
+  3:37 ShutdownGame:
+  3:37 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:08 ShutdownGame:
+  0:08 ------------------------------------------------------------
+  0:08 ------------------------------------------------------------
+  0:08 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\kor2\sv_privateClients\0\sv_allowDownload\0\bot_minplayers\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:09 ClientConnect: 0
+  0:09 Padawan^7 connected with IP: 
+  0:09 ClientBegin: 0
+  0:19 setteam:  0 SPECTATOR FREE
+  0:19 ClientBegin: 0
+  0:29 Kill: 1022 121 3: <world> killed  by MOD_SABER
+  0:32 Kill: 1022 119 38: <world> killed  by MOD_FALLING
+  2:03 Kill: 1022 125 3: <world> killed  by MOD_SABER
+  2:06 ShutdownGame:
+  2:06 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:06 ShutdownGame:
+  0:06 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:06 setteam:  0 SPECTATOR FREE
+  0:06 ClientBegin: 0
+  0:16 ShutdownGame:
+  0:16 ------------------------------------------------------------
+  0:16 ------------------------------------------------------------
+  0:16 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\kor2\sv_privateClients\0\sv_allowDownload\0\bot_minplayers\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:17 ClientConnect: 0
+  0:17 Padawan^7 connected with IP: 
+  0:17 ClientBegin: 0
+  0:23 setteam:  0 SPECTATOR FREE
+  0:23 ClientBegin: 0
+  0:32 Kill: 1022 123 38: <world> killed  by MOD_FALLING
+  0:34 Kill: 1022 121 38: <world> killed  by MOD_FALLING
+  0:37 Kill: 1022 192 3: <world> killed  by MOD_SABER
+  0:53 Kill: 1022 190 38: <world> killed  by MOD_FALLING
+  1:09 Kill: 1022 125 2: <world> killed  by MOD_MELEE
+  1:15 Kill: 1022 119 38: <world> killed  by MOD_FALLING
+  2:10 ShutdownGame:
+  2:10 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:06 ShutdownGame:
+  0:06 ------------------------------------------------------------
+  0:06 ------------------------------------------------------------
+  0:06 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\kor2\sv_privateClients\0\sv_allowDownload\0\bot_minplayers\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:06 ClientConnect: 0
+  0:06 Padawan^7 connected with IP: 
+  0:07 ClientBegin: 0
+  0:13 setteam:  0 SPECTATOR FREE
+  0:13 ClientBegin: 0
+  0:24 Kill: 1022 125 3: <world> killed  by MOD_SABER
+  0:29 Kill: 1022 121 3: <world> killed  by MOD_SABER
+  0:56 Kill: 1022 119 3: <world> killed  by MOD_SABER
+  1:39 ShutdownGame:
+  1:39 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:11 ShutdownGame:
+  0:11 ------------------------------------------------------------
+  0:11 ------------------------------------------------------------
+  0:11 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\kor2\sv_privateClients\0\sv_allowDownload\0\bot_minplayers\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:11 ClientConnect: 0
+  0:11 Padawan^7 connected with IP: 
+  0:12 ClientBegin: 0
+  0:16 setteam:  0 SPECTATOR FREE
+  0:16 ClientBegin: 0
+  0:28 Kill: 1022 121 38: <world> killed  by MOD_FALLING
+  0:42 Kill: 1022 119 3: <world> killed  by MOD_SABER
+  1:28 ShutdownGame:
+  1:28 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:23 ShutdownGame:
+  0:23 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:07 setteam:  0 SPECTATOR FREE
+  0:07 ClientBegin: 0
+  0:21 Item: 0 item_force_enlighten_dark
+  0:42 Item: 0 item_force_enlighten_light
+  1:24 ShutdownGame:
+  1:24 ------------------------------------------------------------
+  1:24 ------------------------------------------------------------
+  1:24 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\kor2\sv_privateClients\0\sv_allowDownload\0\bot_minplayers\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  1:25 ClientConnect: 0
+  1:25 Padawan^7 connected with IP: 
+  1:25 Kill: 0 0 39: Padawan killed Padawan by MOD_SUICIDE
+  1:25 setteam:  0 FREE SPECTATOR
+  1:25 ClientBegin: 0
+  1:25 ClientBegin: 0
+  1:31 setteam:  0 SPECTATOR FREE
+  1:31 ClientBegin: 0
+  1:37 Kill: 1022 125 3: <world> killed  by MOD_SABER
+  1:47 Kill: 1022 119 3: <world> killed  by MOD_SABER
+  2:09 say: Padawan: help_up padawan
+  2:27 ShutdownGame:
+  2:27 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:06 setteam:  0 SPECTATOR FREE
+  0:06 ClientBegin: 0
+  0:33 ShutdownGame:
+  0:33 ------------------------------------------------------------
+  0:33 ------------------------------------------------------------
+  0:33 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\kor2\sv_privateClients\0\sv_allowDownload\0\bot_minplayers\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:33 ClientConnect: 0
+  0:33 Padawan^7 connected with IP: 
+  0:34 ClientBegin: 0
+  0:39 setteam:  0 SPECTATOR FREE
+  0:39 ClientBegin: 0
+  0:50 Kill: 1022 121 38: <world> killed  by MOD_FALLING
+  1:04 Kill: 1022 125 3: <world> killed  by MOD_SABER
+  1:15 Kill: 1022 123 38: <world> killed  by MOD_FALLING
+  2:00 ShutdownGame:
+  2:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  1:02 ShutdownGame:
+  1:02 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:07 ShutdownGame:
+  0:07 ------------------------------------------------------------
+  0:07 ------------------------------------------------------------
+  0:07 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\KOR2\sv_privateClients\0\sv_allowDownload\0\bot_minplayers\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:07 ClientConnect: 0
+  0:07 Padawan^7 connected with IP: 
+  0:08 ClientBegin: 0
+  0:14 setteam:  0 SPECTATOR FREE
+  0:14 ClientBegin: 0
+  0:39 Kill: 1022 125 3: <world> killed  by MOD_SABER
+  0:42 Kill: 1022 121 3: <world> killed  by MOD_SABER
+  0:45 ShutdownGame:
+  0:45 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:07 setteam:  0 SPECTATOR FREE
+  0:07 ClientBegin: 0
+  0:35 ShutdownGame:
+  0:35 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:29 setteam:  0 SPECTATOR FREE
+  0:29 ClientBegin: 0
+  0:46 Kill: 0 0 39: Padawan killed Padawan by MOD_SUICIDE
+  1:37 ShutdownGame:
+  1:37 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:22 setteam:  0 SPECTATOR FREE
+  0:22 ClientBegin: 0
+  0:27 Kill: 0 0 39: Padawan killed Padawan by MOD_SUICIDE
+  0:35 ShutdownGame:
+  0:35 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:05 ShutdownGame:
+  0:05 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:10 ShutdownGame:
+  0:10 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:08 ShutdownGame:
+  0:08 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:05 ShutdownGame:
+  0:05 ------------------------------------------------------------
+  0:05 ------------------------------------------------------------
+  0:05 InitGame: \ojp_allowBodyDodge\1\ojp_skipcutscenes\0\g_allowBotLimit\0\g_maxBots\1\g_minHumans\2\g_siegeTeam2\none\g_siegeTeam1\none\g_siegeRespawn\20\g_itemDisable\0\g_weaponDisable\0\g_forcePowerDisable\0\g_dodgeRegenTime\100\g_forceRegenTime\100\g_saberanimspeed\1\g_saberDamageScale\1\g_jediVmerc\0\g_maxGameClients\0\g_siegeTeamSwitch\1\sv_fps\20\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_maxRate\0\sv_maxclients\8\sv_hostname\*Jedi*\g_duelWeaponDisable\1\g_forceBasedTeams\0\duel_fraglimit\10\g_saberLocking\1\g_privateDuel\1\capturelimit\0\timelimit\0\fraglimit\20\dmflags\0\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\kor2\sv_privateClients\0\sv_allowDownload\0\bot_minplayers\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:05 ClientConnect: 0
+  0:05 Padawan^7 connected with IP: 
+  0:06 ClientBegin: 0
+  0:11 setteam:  0 SPECTATOR FREE
+  0:11 ClientBegin: 0
+  0:25 Kill: 1022 121 3: <world> killed  by MOD_SABER
+  1:05 ShutdownGame:
+  1:05 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\fraglimit\20\timelimit\0\capturelimit\0\g_privateDuel\1\g_saberLocking\1\duel_fraglimit\10\g_forceBasedTeams\0\g_duelWeaponDisable\1\sv_hostname\*Jedi*\sv_maxclients\8\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_fps\20\g_siegeTeamSwitch\1\g_maxGameClients\0\g_jediVmerc\0\g_saberDamageScale\1\g_saberanimspeed\1\g_forceRegenTime\100\g_dodgeRegenTime\100\g_forcePowerDisable\0\g_weaponDisable\0\g_itemDisable\0\g_siegeRespawn\20\g_siegeTeam1\none\g_siegeTeam2\none\g_minHumans\2\g_maxBots\1\g_allowBotLimit\0\ojp_skipcutscenes\0\ojp_allowBodyDodge\1\version\JAmp: v1.0.1.0 win-x86 Oct 24 2003\g_maxHolocronCarry\3\g_maxForceRank\6\g_gametype\0\g_needpass\0\protocol\26\mapname\mp/ffa3\sv_privateClients\0\sv_allowDownload\0\g_debugMelee\0\g_stepSlideFix\1\g_noSpecMove\0\gamename\OJP Enhanced Universe\g_allowNPC\1\g_saberWallDamageScale\0.4\bg_fighterAltControl\0\g_showDuelHealths\0
+  0:00 ClientConnect: 0
+  0:00 Padawan^7 connected with IP: localhost
+  0:00 ClientBegin: 0
+  0:09 ShutdownGame:
+  0:09 ------------------------------------------------------------

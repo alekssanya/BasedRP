@@ -1,0 +1,123 @@
+name: Build
+
+on:
+  workflow_dispatch:
+  push:
+    branches: master
+  pull_request:
+    branches: master
+
+jobs:
+  vs2022:
+    name: Build Windows VS 2022, ${{ matrix.build_type }}, ${{ matrix.arch }}
+    runs-on: windows-2022
+    strategy:
+      matrix:
+        build_type: [Debug, Release]
+        arch: [Win32, x64]
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Add msbuild to PATH
+      uses: microsoft/setup-msbuild@v2
+
+    - name: Create Build Environment
+      run: cmake -E make_directory ${{github.workspace}}\build\actions
+
+    - name: Configure CMake
+      shell: bash
+      working-directory: ${{github.workspace}}/build/actions
+      run: cmake -B . -S $GITHUB_WORKSPACE/source -G "Visual Studio 17 2022" -A ${{ matrix.arch }}
+
+    - name: Build
+      working-directory: ${{github.workspace}}/build/actions
+      shell: cmd
+      run: cmake --build . --config ${{ matrix.build_type }} --parallel
+
+    - uses: 'actions/upload-artifact@v4'
+      if: ${{ matrix.build_type == 'Release' }}
+      with:
+        name: Windows Binaries, ${{ matrix.build_type }}, ${{ matrix.arch }}
+        path: ${{github.workspace}}/build/actions/out/${{ matrix.build_type }}/*.dll
+
+  macos:
+    name: Build macOS, ${{ matrix.build_type }}, ${{ matrix.arch }}
+    runs-on: macos-12
+    strategy:
+      matrix:
+        build_type: [Debug, Release]
+        arch: [x86_64, arm64]
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Create Build Environment
+      run: |
+        brew install ninja
+        cmake -E make_directory ${{github.workspace}}/build/actions
+
+    - name: Configure CMake
+      shell: bash
+      working-directory: ${{github.workspace}}/build/actions
+      run: cmake -B . -S $GITHUB_WORKSPACE/source -G "Ninja" -DCMAKE_BUILD_TYPE=${{ matrix.build_type }} -DCMAKE_OSX_ARCHITECTURES=${{ matrix.arch }}
+
+    - name: Build
+      working-directory: ${{github.workspace}}/build/actions
+      shell: bash
+      run: cmake --build . --config ${{ matrix.build_type }} --parallel
+
+#todo the proper extension
+
+    - uses: 'actions/upload-artifact@v4'
+      if: ${{ matrix.build_type == 'Release' }}
+      with:
+        name: macOS Binaries , ${{ matrix.build_type }}, ${{ matrix.arch }}
+        path: |
+          ${{github.workspace}}/build/actions/*.dylib
+
+  linux:
+    name: Build Linux, ${{ matrix.build_type }}, ${{ matrix.arch }}
+    runs-on: ubuntu-22.04
+    strategy:
+      matrix:
+        build_type: [Debug, Release]
+        arch: [x86, x86_64]
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Create Build Environment
+      run: |
+        if [ ${{ matrix.arch }} == "x86" ]; then
+          sudo dpkg --add-architecture i386
+          sudo apt-get -qq update
+          sudo apt-get -y install aptitude
+          sudo apt-get -y install gcc-multilib g++-multilib ninja-build
+        else
+          sudo apt-get -qq update
+          sudo apt-get -y install ninja-build
+        fi
+        cmake -E make_directory ${{github.workspace}}/build/actions
+  
+    - name: Configure CMake
+      shell: bash
+      working-directory: ${{github.workspace}}/build/actions
+      run: |
+        if [ ${{ matrix.arch }} == "x86" ]; then
+          cmake -B . -S $GITHUB_WORKSPACE/source -G "Ninja" -DCMAKE_BUILD_TYPE=${{ matrix.build_type }} -DCMAKE_TOOLCHAIN_FILE=$GITHUB_WORKSPACE/source/cmake/linux-x86.cmake
+        else
+          cmake -B . -S $GITHUB_WORKSPACE/source -G "Ninja" -DCMAKE_BUILD_TYPE=${{ matrix.build_type }}
+        fi
+
+    - name: Build
+      working-directory: ${{github.workspace}}/build/actions
+      shell: bash
+      run: cmake --build . --config ${{ matrix.build_type }} --parallel
+
+    - uses: 'actions/upload-artifact@v4'
+      if: ${{ matrix.build_type == 'Release' }}
+      with:
+        name: Liunx Binaries , ${{ matrix.build_type }}, ${{ matrix.arch }}
+        path: |
+          ${{github.workspace}}/build/actions/*.so

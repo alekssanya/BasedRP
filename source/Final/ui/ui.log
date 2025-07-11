@@ -1,0 +1,89 @@
+﻿  bg_misc.c
+  bg_saga.c
+  bg_vehicleLoad.c
+  bg_weapons.c
+  q_math.c
+  q_shared.c
+  ui_atoms.c
+  ui_force.c
+C:\MyProjects\BasedRP\source\game\bg_saga.c(1293,20): warning C4456: объявление "i" скрывает предыдущее локальное объявление
+  C:\MyProjects\BasedRP\source\game\bg_saga.c(1028,6):
+   см. объявление "i"
+  
+C:\MyProjects\BasedRP\source\ui\ui_force.c(660,7): warning C4456: объявление "i" скрывает предыдущее локальное объявление
+  C:\MyProjects\BasedRP\source\ui\ui_force.c(276,39):
+   см. объявление "i"
+  
+  ui_gameinfo.c
+  ui_main.c
+C:\MyProjects\BasedRP\source\ui\ui_main.c(496,7): warning C4459: объявление "ui_siegeInfo" скрывает глобальное объявление
+  C:\MyProjects\BasedRP\source\ui\ui_local.h(82,17):
+   см. объявление "ui_siegeInfo"
+  
+C:\MyProjects\BasedRP\source\ui\ui_main.c(523,7): warning C4459: объявление "ui_siegeInfo" скрывает глобальное объявление
+  C:\MyProjects\BasedRP\source\ui\ui_local.h(82,17):
+   см. объявление "ui_siegeInfo"
+  
+C:\MyProjects\BasedRP\source\ui\ui_main.c(544,7): warning C4459: объявление "ui_siegeInfo" скрывает глобальное объявление
+  C:\MyProjects\BasedRP\source\ui\ui_local.h(82,17):
+   см. объявление "ui_siegeInfo"
+  
+C:\MyProjects\BasedRP\source\ui\ui_main.c(5612,6): warning C4189: gameType: локальная переменная инициализирована, но не использована
+C:\MyProjects\BasedRP\source\ui\ui_main.c(5814,14): warning C4456: объявление "item" скрывает предыдущее локальное объявление
+  C:\MyProjects\BasedRP\source\ui\ui_main.c(5796,13):
+   см. объявление "item"
+  
+C:\MyProjects\BasedRP\source\ui\ui_main.c(5823,14): warning C4456: объявление "item" скрывает предыдущее локальное объявление
+  C:\MyProjects\BasedRP\source\ui\ui_main.c(5796,13):
+   см. объявление "item"
+  
+C:\MyProjects\BasedRP\source\ui\ui_main.c(6241,18): warning C4456: объявление "listPtr" скрывает предыдущее локальное объявление
+  C:\MyProjects\BasedRP\source\ui\ui_main.c(6232,16):
+   см. объявление "listPtr"
+  
+C:\MyProjects\BasedRP\source\ui\ui_main.c(6696,10): warning C4456: объявление "name" скрывает предыдущее локальное объявление
+  C:\MyProjects\BasedRP\source\ui\ui_main.c(6335,14):
+   см. объявление "name"
+  
+C:\MyProjects\BasedRP\source\ui\ui_main.c(6749,10): warning C4456: объявление "name" скрывает предыдущее локальное объявление
+  C:\MyProjects\BasedRP\source\ui\ui_main.c(6335,14):
+   см. объявление "name"
+  
+C:\MyProjects\BasedRP\source\ui\ui_main.c(9353,9): warning C4456: объявление "i" скрывает предыдущее локальное объявление
+  C:\MyProjects\BasedRP\source\ui\ui_main.c(9316,15):
+   см. объявление "i"
+  
+C:\MyProjects\BasedRP\source\ui\ui_main.c(9868,14): warning C4457: объявление "item" скрывает параметр функции
+  C:\MyProjects\BasedRP\source\ui\ui_main.c(9846,70):
+   см. объявление "item"
+  
+C:\MyProjects\BasedRP\source\ui\ui_main.c(9947,14): warning C4457: объявление "item" скрывает параметр функции
+  C:\MyProjects\BasedRP\source\ui\ui_main.c(9846,70):
+   см. объявление "item"
+  
+  ui_saber.c
+C:\MyProjects\BasedRP\source\ui\ui_saber.c(811,7): warning C4456: объявление "i" скрывает предыдущее локальное объявление
+  C:\MyProjects\BasedRP\source\ui\ui_saber.c(682,6):
+   см. объявление "i"
+  
+  ui_shared.c
+C:\MyProjects\BasedRP\source\ui\ui_shared.c(759,11): warning C4456: объявление "color" скрывает предыдущее локальное объявление
+  C:\MyProjects\BasedRP\source\ui\ui_shared.c(711,9):
+   см. объявление "color"
+  
+C:\MyProjects\BasedRP\source\ui\ui_shared.c(5471,15): warning C4456: объявление "modelPtr" скрывает предыдущее локальное объявление
+  C:\MyProjects\BasedRP\source\ui\ui_shared.c(5460,14):
+   см. объявление "modelPtr"
+  
+C:\MyProjects\BasedRP\source\ui\ui_shared.c(6110,14): warning C4456: объявление "parent" скрывает предыдущее локальное объявление
+  C:\MyProjects\BasedRP\source\ui\ui_shared.c(6101,14):
+   см. объявление "parent"
+  
+C:\MyProjects\BasedRP\source\ui\ui_shared.c(6666,9): warning C4456: объявление "color" скрывает предыдущее локальное объявление
+  C:\MyProjects\BasedRP\source\ui\ui_shared.c(6168,10):
+   см. объявление "color"
+  
+  ui_syscalls.c
+  Создание кода...
+     Создается библиотека .\../Final/uix86.lib и объект .\../Final/uix86.exp
+  ui.vcxproj -> C:\MyProjects\BasedRP\ojpenhanced\uix86.dll
