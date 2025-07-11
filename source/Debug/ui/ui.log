@@ -1,14 +1,14 @@
 ﻿  bg_misc.c
   bg_saga.c
+C:\MyProjects\BasedRP\source\game\bg_saga.c(1293,20): warning C4456: объявление "i" скрывает предыдущее локальное объявление
+  C:\MyProjects\BasedRP\source\game\bg_saga.c(1028,6):
+   см. объявление "i"
+  
   bg_vehicleLoad.c
   bg_weapons.c
   q_math.c
   q_shared.c
   ui_atoms.c
-C:\MyProjects\BasedRP\source\game\bg_saga.c(1293,20): warning C4456: объявление "i" скрывает предыдущее локальное объявление
-  C:\MyProjects\BasedRP\source\game\bg_saga.c(1028,6):
-   см. объявление "i"
-  
   ui_force.c
 C:\MyProjects\BasedRP\source\ui\ui_force.c(660,7): warning C4456: объявление "i" скрывает предыдущее локальное объявление
   C:\MyProjects\BasedRP\source\ui\ui_force.c(276,39):

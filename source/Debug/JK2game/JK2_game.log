@@ -1,29 +1,19 @@
-﻿  g_cmds.c
-C:\MyProjects\BasedRP\source\game\g_cmds.c(134,26): warning C4131: "roll_dice": используется оператор объявления старого стиля.
-C:\MyProjects\BasedRP\source\game\g_cmds.c(439,36): warning C4090: функция: разные квалификаторы "const"
-C:\MyProjects\BasedRP\source\game\g_cmds.c(443,48): warning C4090: функция: разные квалификаторы "const"
-C:\MyProjects\BasedRP\source\game\g_cmds.c(2773,51): warning C4020: ClientNumberFromString: слишком много фактических параметров
-C:\MyProjects\BasedRP\source\game\g_cmds.c(2788,7): warning C4101: otherindex: неиспользованная локальная переменная
-C:\MyProjects\BasedRP\source\game\g_cmds.c(2928,91): warning C4090: функция: разные квалификаторы "const"
-C:\MyProjects\BasedRP\source\game\g_cmds.c(2866,6): warning C4189: broadcast_distance: локальная переменная инициализирована, но не использована
-C:\MyProjects\BasedRP\source\game\g_cmds.c(2862,6): warning C4189: max_voice_distance: локальная переменная инициализирована, но не использована
-C:\MyProjects\BasedRP\source\game\g_cmds.c(3071,47): warning C4020: ClientNumberFromString: слишком много фактических параметров
-C:\MyProjects\BasedRP\source\game\g_cmds.c(5039,3): warning C4013: Cmd_SetModelScale_f: нет определения; предполагается "extern" с возвратом типа "int"
-C:\MyProjects\BasedRP\source\game\g_cmds.c(5060,19): warning C4020: Cmd_Say_f: слишком много фактических параметров
-C:\MyProjects\BasedRP\source\game\g_cmds.c(5067,20): warning C4020: Cmd_Say_f: слишком много фактических параметров
-C:\MyProjects\BasedRP\source\game\g_cmds.c(5071,20): warning C4020: Cmd_Say_f: слишком много фактических параметров
-C:\MyProjects\BasedRP\source\game\g_cmds.c(5208,20): warning C4020: Cmd_Say_f: слишком много фактических параметров
-C:\MyProjects\BasedRP\source\game\g_cmds.c(5889,12): warning C4456: объявление "fwd" скрывает предыдущее локальное объявление
-  C:\MyProjects\BasedRP\source\game\g_cmds.c(5860,15):
-   см. объявление "fwd"
+﻿  g_client.c
+C:\MyProjects\BasedRP\source\game\g_client.c(4217,10): warning C4456: объявление "i" скрывает предыдущее локальное объявление
+  C:\MyProjects\BasedRP\source\game\g_client.c(3503,10):
+   см. объявление "i"
   
-C:\MyProjects\BasedRP\source\game\g_cmds.c(5890,13): warning C4456: объявление "tr" скрывает предыдущее локальное объявление
-  C:\MyProjects\BasedRP\source\game\g_cmds.c(5859,11):
-   см. объявление "tr"
+C:\MyProjects\BasedRP\source\game\g_client.c(4535,8): warning C4456: объявление "i" скрывает предыдущее локальное объявление
+  C:\MyProjects\BasedRP\source\game\g_client.c(3503,10):
+   см. объявление "i"
   
-  g_syscalls.c
-  g_utils.c
-C:\MyProjects\BasedRP\source\game\g_utils.c(1846,15): warning C4098: TryUse: функция типа "void", возвращающая значение
+C:\MyProjects\BasedRP\source\game\g_client.c(5680,20): warning C4131: "Clear_DB": используется оператор объявления старого стиля.
+  g_db.c
+C:\MyProjects\BasedRP\source\game\g_db.c(141,7): warning C4013: HasAdminRights: нет определения; предполагается "extern" с возвратом типа "int"
+C:\MyProjects\BasedRP\source\game\g_db.c(289,15): warning C4459: объявление "level" скрывает глобальное объявление
+  C:\MyProjects\BasedRP\source\game\g_local.h(1917,23):
+   см. объявление "level"
+  
   Создание кода...
   LINK : не найден или не выполнена сборка ..\..\ojpenhanced\jampgamex86.dll при последней инкрементной компоновке; выполняется полная компоновка
 ai_aotc.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/SAFESEH"

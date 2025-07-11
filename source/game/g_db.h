@@ -19,5 +19,6 @@ void Cmd_AddSkillPoint_f(gentity_t* ent);
 
 qboolean HasAdminRights(gentity_t* ent);
 void SendPrint(gentity_t* ent, const char* msg);
+void Clear_DB(gentity_t* ent);
 
 #endif // G_DB_H

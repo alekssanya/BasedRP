@@ -969,10 +969,11 @@ argv(0) notarget
 void Cmd_Notarget_f( gentity_t *ent ) {
 	char	*msg;
 
+	/*
 	if ( !CheatsOk( ent ) ) {
 		return;
 	}
-
+	*/
 	ent->flags ^= FL_NOTARGET;
 	if (!(ent->flags & FL_NOTARGET) )
 		msg = "notarget OFF\n";
@@ -2643,31 +2644,37 @@ void BotOrderParser(gentity_t *ent, gentity_t *target, int mode, const char *cha
 
 
 void paralyze_player(int client_id) {
-	if (client_id == -1)
-	{
+	if (client_id == -1) {
 		return;
 	}
 
-	if (!(g_entities[client_id].flags & FL_NOTARGET)) {
-		g_entities[client_id].flags ^= FL_NOTARGET;
+	gentity_t* ent = &g_entities[client_id];
+
+	if (!(ent->flags & FL_NOTARGET)) {
+		ent->flags ^= FL_NOTARGET;
 	}
 
-	//GalaxyRP (Alex): [Death System] Paralyze the target player.
-	g_entities[client_id].client->pers.player_statuses |= (1 << 6);
+	// GalaxyRP (Alex): [Death System] Paralyze the target player.
+	ent->client->pers.player_statuses |= (1 << 6);
 
-	g_entities[client_id].client->ps.eFlags |= EF_INVULNERABLE;
-	g_entities[client_id].client->invulnerableTimer = level.time + 10000;
+	// Сохраняем текущую анимацию ног
+	ent->client->pers.downedAnim = ent->client->ps.forceDodgeAnim;
 
-	g_entities[client_id].client->ps.forceHandExtend = HANDEXTEND_KNOCKDOWN;
-	g_entities[client_id].client->ps.forceHandExtendTime = level.time + 9999999;
-	g_entities[client_id].client->ps.velocity[2] += 150;
-	g_entities[client_id].client->ps.forceDodgeAnim = 0;
-	g_entities[client_id].client->ps.quickerGetup = qtrue;
+	// Блокируем ввод полностью
+	ent->client->ps.pm_type = PM_FREEZE;
 
-	//GalaxyRP (Alex): [Death System] Set their HP to 50 so they don't die the old way instantly.
-	g_entities[client_id].client->ps.stats[STAT_HEALTH] = 50;
-	g_entities[client_id].health = 50;
+	ent->client->ps.eFlags |= EF_INVULNERABLE;
+	ent->client->invulnerableTimer = level.time + 10000;
 
+	ent->client->ps.forceHandExtend = HANDEXTEND_KNOCKDOWN;
+	ent->client->ps.forceHandExtendTime = level.time + 9999999;
+	ent->client->ps.velocity[2] += 150;
+	ent->client->ps.forceDodgeAnim = 0;
+	ent->client->ps.quickerGetup = qtrue;
+
+	// GalaxyRP (Alex): [Death System] Set their HP to 50 so they don't die the old way instantly.
+	ent->client->ps.stats[STAT_HEALTH] = 50;
+	ent->health = 50;
 }
 
 qboolean can_player_get_up(gentity_t* ent, gentity_t* target) {

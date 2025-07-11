@@ -560,6 +560,8 @@ typedef struct {
 	//[/ExpSys]
 	int modelScale;
 	char username[64]; // для хранения логина игрока после входа
+	qboolean loggedIn;
+
 } clientSession_t;
 
 // playerstate mGameFlags
@@ -599,7 +601,9 @@ typedef struct {
 	//1 - использует эмоцию
 	//2 - нормальное
 	//6 - кнокдаун
-	int player_statuses; 
+	int player_statuses;
+
+	int downedAnim; // Запоминаем анимацию в которой игрок упал для системы смерти
 } clientPersistant_t;
 
 typedef struct renderInfo_s

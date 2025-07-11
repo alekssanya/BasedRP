@@ -3,9 +3,6 @@
   bg_misc.c
   bg_panimate.c
   bg_pmove.c
-  bg_saber.c
-  bg_saberLoad.c
-  bg_saga.c
 C:\MyProjects\BasedRP\source\game\bg_pmove.c(2806,12): warning C4456: объявление "allowFlips" скрывает предыдущее локальное объявление
   C:\MyProjects\BasedRP\source\game\bg_pmove.c(2417,11):
    см. объявление "allowFlips"
@@ -26,14 +23,17 @@ C:\MyProjects\BasedRP\source\game\bg_pmove.c(13859,8): warning C4456: объяв
   C:\MyProjects\BasedRP\source\game\bg_pmove.c(13821,7):
    см. объявление "aLen"
   
+  bg_saber.c
 C:\MyProjects\BasedRP\source\game\bg_saber.c(1400,7): warning C4457: объявление "strength" скрывает параметр функции
   C:\MyProjects\BasedRP\source\game\bg_saber.c(1292,70):
    см. объявление "strength"
   
+  bg_saberLoad.c
 C:\MyProjects\BasedRP\source\game\bg_saberLoad.c(471,7): warning C4456: объявление "styleNum" скрывает предыдущее локальное объявление
   C:\MyProjects\BasedRP\source\game\bg_saberLoad.c(384,23):
    см. объявление "styleNum"
   
+  bg_saga.c
 C:\MyProjects\BasedRP\source\game\bg_saga.c(1293,20): warning C4456: объявление "i" скрывает предыдущее локальное объявление
   C:\MyProjects\BasedRP\source\game\bg_saga.c(1028,6):
    см. объявление "i"
@@ -188,8 +188,8 @@ C:\MyProjects\BasedRP\source\cgame\cg_weapons.c(1494,15): warning C4456: объ�
   FighterNPC.c
   fx_blaster.c
   Создание кода...
-C:\MyProjects\BasedRP\source\cgame\cg_players.c(11943): warning C4703: используется потенциально неинициализированная локальная переменная-указатель "saberTrail"
 C:\MyProjects\BasedRP\source\cgame\cg_players.c(2723): warning C4706: назначение в пределах условного выражения
+C:\MyProjects\BasedRP\source\cgame\cg_players.c(11943): warning C4703: используется потенциально неинициализированная локальная переменная-указатель "saberTrail"
   Компиляция...
   fx_bowcaster.c
   fx_bryarpistol.c

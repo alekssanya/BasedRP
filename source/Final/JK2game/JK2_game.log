@@ -87,20 +87,20 @@ C:\MyProjects\BasedRP\source\game\FighterNPC.c(1032,14): warning C4457: объя
    см. объявление "parent"
   
   g_active.c
-C:\MyProjects\BasedRP\source\game\g_active.c(510,46): warning C4459: объявление "pm" скрывает глобальное объявление
+C:\MyProjects\BasedRP\source\game\g_active.c(520,46): warning C4459: объявление "pm" скрывает глобальное объявление
   C:\MyProjects\BasedRP\source\game\bg_public.h(665,18):
    см. объявление "pm"
   
-C:\MyProjects\BasedRP\source\game\g_active.c(711,10): warning C4459: объявление "pm" скрывает глобальное объявление
+C:\MyProjects\BasedRP\source\game\g_active.c(721,10): warning C4459: объявление "pm" скрывает глобальное объявление
   C:\MyProjects\BasedRP\source\game\bg_public.h(665,18):
    см. объявление "pm"
   
-C:\MyProjects\BasedRP\source\game\g_active.c(2606,11): warning C4459: объявление "pm" скрывает глобальное объявление
+C:\MyProjects\BasedRP\source\game\g_active.c(2616,11): warning C4459: объявление "pm" скрывает глобальное объявление
   C:\MyProjects\BasedRP\source\game\bg_public.h(665,18):
    см. объявление "pm"
   
-C:\MyProjects\BasedRP\source\game\g_active.c(3489,9): warning C4456: объявление "playerDuelShield" скрывает предыдущее локальное объявление
-  C:\MyProjects\BasedRP\source\game\g_active.c(3341,8):
+C:\MyProjects\BasedRP\source\game\g_active.c(3499,9): warning C4456: объявление "playerDuelShield" скрывает предыдущее локальное объявление
+  C:\MyProjects\BasedRP\source\game\g_active.c(3351,8):
    см. объявление "playerDuelShield"
   
   Создание кода...
@@ -124,17 +124,17 @@ C:\MyProjects\BasedRP\source\game\g_client.c(4534,8): warning C4456: объяв�
 C:\MyProjects\BasedRP\source\game\g_cmds.c(134,26): warning C4131: "roll_dice": используется оператор объявления старого стиля.
 C:\MyProjects\BasedRP\source\game\g_cmds.c(439,36): warning C4090: функция: разные квалификаторы "const"
 C:\MyProjects\BasedRP\source\game\g_cmds.c(443,48): warning C4090: функция: разные квалификаторы "const"
-C:\MyProjects\BasedRP\source\game\g_cmds.c(2780,51): warning C4020: ClientNumberFromString: слишком много фактических параметров
-C:\MyProjects\BasedRP\source\game\g_cmds.c(2795,7): warning C4101: otherindex: неиспользованная локальная переменная
-C:\MyProjects\BasedRP\source\game\g_cmds.c(2935,91): warning C4090: функция: разные квалификаторы "const"
-C:\MyProjects\BasedRP\source\game\g_cmds.c(2873,6): warning C4189: broadcast_distance: локальная переменная инициализирована, но не использована
-C:\MyProjects\BasedRP\source\game\g_cmds.c(2869,6): warning C4189: max_voice_distance: локальная переменная инициализирована, но не использована
-C:\MyProjects\BasedRP\source\game\g_cmds.c(3078,47): warning C4020: ClientNumberFromString: слишком много фактических параметров
-C:\MyProjects\BasedRP\source\game\g_cmds.c(5046,3): warning C4013: Cmd_SetModelScale_f: нет определения; предполагается "extern" с возвратом типа "int"
-C:\MyProjects\BasedRP\source\game\g_cmds.c(5067,19): warning C4020: Cmd_Say_f: слишком много фактических параметров
-C:\MyProjects\BasedRP\source\game\g_cmds.c(5074,20): warning C4020: Cmd_Say_f: слишком много фактических параметров
-C:\MyProjects\BasedRP\source\game\g_cmds.c(5078,20): warning C4020: Cmd_Say_f: слишком много фактических параметров
-C:\MyProjects\BasedRP\source\game\g_cmds.c(5215,20): warning C4020: Cmd_Say_f: слишком много фактических параметров
+C:\MyProjects\BasedRP\source\game\g_cmds.c(2787,51): warning C4020: ClientNumberFromString: слишком много фактических параметров
+C:\MyProjects\BasedRP\source\game\g_cmds.c(2802,7): warning C4101: otherindex: неиспользованная локальная переменная
+C:\MyProjects\BasedRP\source\game\g_cmds.c(2942,91): warning C4090: функция: разные квалификаторы "const"
+C:\MyProjects\BasedRP\source\game\g_cmds.c(2880,6): warning C4189: broadcast_distance: локальная переменная инициализирована, но не использована
+C:\MyProjects\BasedRP\source\game\g_cmds.c(2876,6): warning C4189: max_voice_distance: локальная переменная инициализирована, но не использована
+C:\MyProjects\BasedRP\source\game\g_cmds.c(3085,47): warning C4020: ClientNumberFromString: слишком много фактических параметров
+C:\MyProjects\BasedRP\source\game\g_cmds.c(5053,3): warning C4013: Cmd_SetModelScale_f: нет определения; предполагается "extern" с возвратом типа "int"
+C:\MyProjects\BasedRP\source\game\g_cmds.c(5074,19): warning C4020: Cmd_Say_f: слишком много фактических параметров
+C:\MyProjects\BasedRP\source\game\g_cmds.c(5081,20): warning C4020: Cmd_Say_f: слишком много фактических параметров
+C:\MyProjects\BasedRP\source\game\g_cmds.c(5085,20): warning C4020: Cmd_Say_f: слишком много фактических параметров
+C:\MyProjects\BasedRP\source\game\g_cmds.c(5222,20): warning C4020: Cmd_Say_f: слишком много фактических параметров
   g_combat.c
 C:\MyProjects\BasedRP\source\game\g_combat.c(2719,7): warning C4456: объявление "i" скрывает предыдущее локальное объявление
   C:\MyProjects\BasedRP\source\game\g_combat.c(2610,8):
@@ -172,14 +172,14 @@ C:\MyProjects\BasedRP\source\game\g_crash.c(281,48): warning C4113: "BOOL (__std
   g_db.c
 C:\MyProjects\BasedRP\source\game\g_db.c(141,7): warning C4013: HasAdminRights: нет определения; предполагается "extern" с возвратом типа "int"
 C:\MyProjects\BasedRP\source\game\g_db.c(281,15): warning C4459: объявление "level" скрывает глобальное объявление
-  C:\MyProjects\BasedRP\source\game\g_local.h(1913,23):
+  C:\MyProjects\BasedRP\source\game\g_local.h(1915,23):
    см. объявление "level"
   
   g_dynmusic.c
   g_exphysics.c
   g_ICARUScb.c
 C:\MyProjects\BasedRP\source\game\g_ICARUScb.c(365,24): warning C4459: объявление "level" скрывает глобальное объявление
-  C:\MyProjects\BasedRP\source\game\g_local.h(1913,23):
+  C:\MyProjects\BasedRP\source\game\g_local.h(1915,23):
    см. объявление "level"
   
 C:\MyProjects\BasedRP\source\game\g_ICARUScb.c(8733,24): warning C4456: объявление "var" скрывает предыдущее локальное объявление
@@ -376,8 +376,8 @@ C:\MyProjects\BasedRP\source\game\NPC_AI_Jedi.c(3603,11): warning C4456: объ�
   NPC_AI_RocketTrooper.c
   NPC_AI_SaberDroid.c
   Создание кода...
-C:\MyProjects\BasedRP\source\game\g_weapon.c(400): warning C4703: используется потенциально неинициализированная локальная переменная-указатель "missile2"
 C:\MyProjects\BasedRP\source\game\g_weapon.c(576): warning C4703: используется потенциально неинициализированная локальная переменная-указатель "missile2"
+C:\MyProjects\BasedRP\source\game\g_weapon.c(400): warning C4703: используется потенциально неинициализированная локальная переменная-указатель "missile2"
 C:\MyProjects\BasedRP\source\game\g_weapon.c(10114): warning C4703: используется потенциально неинициализированная локальная переменная-указатель "missile2"
 C:\MyProjects\BasedRP\source\game\g_weapon.c(10291): warning C4703: используется потенциально неинициализированная локальная переменная-указатель "missile2"
 C:\MyProjects\BasedRP\source\game\g_weapon.c(10578): warning C4703: используется потенциально неинициализированная локальная переменная-указатель "missile2"

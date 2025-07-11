@@ -3,6 +3,7 @@
 #include "g_local.h"
 #include "../ghoul2/g2.h"
 #include "bg_saga.h"
+#include "g_db.h"
 
 // g_client.c -- client functions that don't happen every frame
 
@@ -5676,6 +5677,8 @@ void ClientDisconnect( int clientNum ) {
 	// hasn't spawned yet
 	G_RemoveQueuedBotBegin( clientNum );
 
+	void Clear_DB(ent);
+
 	ent = g_entities + clientNum;
 	if ( !ent->client ) {
 		return;
@@ -5703,6 +5706,7 @@ void ClientDisconnect( int clientNum ) {
 		i++;
 	}
 	i = 0;
+
 	
 	//[BugFix38]
 	G_LeaveVehicle( ent, qtrue );

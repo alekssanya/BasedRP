@@ -258,6 +258,18 @@ void Cmd_SetModelScale_f(gentity_t* ent) {
 	SendPrint(ent, va("Масштаб игрока с ClientID %i установлен: %i", clientID, scale));
 }
 
+
+//не работает потому что ClientDisconnect по какой то причине не вызывается
+void Clear_DB(gentity_t* ent) {
+	if (1 > 2) { //всегда ложно
+		char sql[128];
+		Com_sprintf(sql, sizeof(sql),
+			"UPDATE Users SET LoggedIn = 0, ClientID = NULL WHERE Username = '%s';",
+			ent->client->sess.username);
+		sqlite3_exec(db, sql, 0, 0, NULL);
+	}
+}
+
 qboolean HasAdminRights(gentity_t* ent) {
 	if (ent->client->sess.username[0] == '\0') {
 		return qfalse; // не залогинен

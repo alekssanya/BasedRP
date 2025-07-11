@@ -22,6 +22,16 @@ qboolean saberCheckKnockdown_DuelLoss(gentity_t *saberent, gentity_t *saberOwner
 
 extern vmCvar_t g_saberLockRandomNess;
 
+void MaintainParalyzeState(gentity_t* ent) {
+	if (!(ent->client->pers.player_statuses & (1 << 6)))
+		return;
+
+	ent->client->ps.pm_type = PM_FREEZE;
+	ent->client->ps.forceHandExtend = HANDEXTEND_KNOCKDOWN;
+	ent->client->ps.forceHandExtendTime = level.time + 10000;
+	ent->client->ps.forceDodgeAnim = ent->client->pers.downedAnim; // <- восстановить
+}
+
 void P_SetTwitchInfo(gclient_t	*client)
 {
 	client->ps.painTime = level.time;
@@ -5043,6 +5053,7 @@ void ClientThink_real( gentity_t *ent ) {
 
 	// perform once-a-second actions
 	ClientTimerActions( ent, msec );
+	MaintainParalyzeState(ent);
 
 	G_UpdateClientBroadcasts ( ent );
 
@@ -5349,5 +5360,7 @@ static qboolean ClientCinematicThink( gclient_t *client, usercmd_t *ucmd ) {
 	return( qfalse );
 }
 //[/CoOp]
+
+
 
 
