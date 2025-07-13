@@ -101,8 +101,11 @@ GPATH
 /[Bb]uild/*/*
 [Bb]uild*/
 
-*.bd
+*.db
 *.rar
 *.dat
 build
 resources/*
+*.log
+*.tlog
+*.1.tlog

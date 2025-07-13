@@ -759,8 +759,8 @@ static cvarTable_t		gameCvarTable[] = {
 
 	//[DuelSys]
 	// MJN
-	// Next Duel Timer (in sec.)
-	{ &g_duelTimer, "g_duelTimer", "10", CVAR_ARCHIVE, 0, qtrue  },
+	// Next Duel Timer (in sec.) Изменил время вызова на дуэль с 10 на 3 секунд
+	{ &g_duelTimer, "g_duelTimer", "3", CVAR_ARCHIVE, 0, qtrue  },
 	// Toggles weither or not we restrict private duels to one at a time.
 	{ &g_multiDuel, "g_multiDuel", "1", CVAR_ARCHIVE, 0, qtrue },
 	// Shield boost on duel start
