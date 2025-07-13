@@ -111,8 +111,8 @@ typedef enum {
 //Fatigue for standard melee moves
 #define FATIGUE_MELEE			1
 
-//Fatigue for standard saber attacks
-#define FATIGUE_SABERATTACK		10
+//Fatigue for standard saber attacks (Стоимость стандартной Атаки)
+#define FATIGUE_SABERATTACK		1
 
 //Fatigue Cost for saber transition moves (spins)
 #define FATIGUE_SABERTRANS		1

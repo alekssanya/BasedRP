@@ -3,173 +3,173 @@
   bg_misc.c
   bg_panimate.c
   bg_pmove.c
-C:\MyProjects\BasedRP\source\game\bg_pmove.c(2806,12): warning C4456: объявление "allowFlips" скрывает предыдущее локальное объявление
-  C:\MyProjects\BasedRP\source\game\bg_pmove.c(2417,11):
-   см. объявление "allowFlips"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\game\bg_pmove.c(2806,12): warning C4456: объявление "allowFlips" скрывает предыдущее локальное объявление
+      D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\game\bg_pmove.c(2417,11):
+       см. объявление "allowFlips"
   
-C:\MyProjects\BasedRP\source\game\bg_pmove.c(9296,7): warning C4456: объявление "weap" скрывает предыдущее локальное объявление
-  C:\MyProjects\BasedRP\source\game\bg_pmove.c(9253,6):
-   см. объявление "weap"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\game\bg_pmove.c(9296,7): warning C4456: объявление "weap" скрывает предыдущее локальное объявление
+      D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\game\bg_pmove.c(9253,6):
+       см. объявление "weap"
   
-C:\MyProjects\BasedRP\source\game\bg_pmove.c(11853,38): warning C4459: объявление "pm" скрывает глобальное объявление
-  C:\MyProjects\BasedRP\source\game\bg_pmove.c(30,11):
-   см. объявление "pm"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\game\bg_pmove.c(11853,38): warning C4459: объявление "pm" скрывает глобальное объявление
+      D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\game\bg_pmove.c(30,11):
+       см. объявление "pm"
   
-C:\MyProjects\BasedRP\source\game\bg_pmove.c(13664,10): warning C4456: объявление "dif" скрывает предыдущее локальное объявление
-  C:\MyProjects\BasedRP\source\game\bg_pmove.c(13382,16):
-   см. объявление "dif"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\game\bg_pmove.c(13664,10): warning C4456: объявление "dif" скрывает предыдущее локальное объявление
+      D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\game\bg_pmove.c(13382,16):
+       см. объявление "dif"
   
-C:\MyProjects\BasedRP\source\game\bg_pmove.c(13859,8): warning C4456: объявление "aLen" скрывает предыдущее локальное объявление
-  C:\MyProjects\BasedRP\source\game\bg_pmove.c(13821,7):
-   см. объявление "aLen"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\game\bg_pmove.c(13859,8): warning C4456: объявление "aLen" скрывает предыдущее локальное объявление
+      D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\game\bg_pmove.c(13821,7):
+       см. объявление "aLen"
   
   bg_saber.c
-C:\MyProjects\BasedRP\source\game\bg_saber.c(1400,7): warning C4457: объявление "strength" скрывает параметр функции
-  C:\MyProjects\BasedRP\source\game\bg_saber.c(1292,70):
-   см. объявление "strength"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\game\bg_saber.c(1400,7): warning C4457: объявление "strength" скрывает параметр функции
+      D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\game\bg_saber.c(1292,70):
+       см. объявление "strength"
   
   bg_saberLoad.c
-C:\MyProjects\BasedRP\source\game\bg_saberLoad.c(471,7): warning C4456: объявление "styleNum" скрывает предыдущее локальное объявление
-  C:\MyProjects\BasedRP\source\game\bg_saberLoad.c(384,23):
-   см. объявление "styleNum"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\game\bg_saberLoad.c(471,7): warning C4456: объявление "styleNum" скрывает предыдущее локальное объявление
+      D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\game\bg_saberLoad.c(384,23):
+       см. объявление "styleNum"
   
   bg_saga.c
-C:\MyProjects\BasedRP\source\game\bg_saga.c(1293,20): warning C4456: объявление "i" скрывает предыдущее локальное объявление
-  C:\MyProjects\BasedRP\source\game\bg_saga.c(1028,6):
-   см. объявление "i"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\game\bg_saga.c(1293,20): warning C4456: объявление "i" скрывает предыдущее локальное объявление
+      D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\game\bg_saga.c(1028,6):
+       см. объявление "i"
   
   bg_slidemove.c
-C:\MyProjects\BasedRP\source\game\bg_slidemove.c(197,17): warning C4456: объявление "hitEnt" скрывает предыдущее локальное объявление
-  C:\MyProjects\BasedRP\source\game\bg_slidemove.c(188,16):
-   см. объявление "hitEnt"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\game\bg_slidemove.c(197,17): warning C4456: объявление "hitEnt" скрывает предыдущее локальное объявление
+      D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\game\bg_slidemove.c(188,16):
+       см. объявление "hitEnt"
   
-C:\MyProjects\BasedRP\source\game\bg_slidemove.c(225,18): warning C4456: объявление "hitEnt" скрывает предыдущее локальное объявление
-  C:\MyProjects\BasedRP\source\game\bg_slidemove.c(197,17):
-   см. объявление "hitEnt"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\game\bg_slidemove.c(225,18): warning C4456: объявление "hitEnt" скрывает предыдущее локальное объявление
+      D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\game\bg_slidemove.c(197,17):
+       см. объявление "hitEnt"
   
   bg_vehicleLoad.c
   bg_weapons.c
   cg_camera.c
   cg_consolecmds.c
   cg_draw.c
-C:\MyProjects\BasedRP\source\cgame\cg_draw.c(2078,14): warning C4456: объявление "focusItem" скрывает предыдущее локальное объявление
-  C:\MyProjects\BasedRP\source\cgame\cg_draw.c(1995,13):
-   см. объявление "focusItem"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_draw.c(2078,14): warning C4456: объявление "focusItem" скрывает предыдущее локальное объявление
+      D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_draw.c(1995,13):
+       см. объявление "focusItem"
   
-C:\MyProjects\BasedRP\source\cgame\cg_draw.c(2555,7): warning C4101: itemNdex: неиспользованная локальная переменная
-C:\MyProjects\BasedRP\source\cgame\cg_draw.c(2706,14): warning C4456: объявление "targetVeh" скрывает предыдущее локальное объявление
-  C:\MyProjects\BasedRP\source\cgame\cg_draw.c(2672,13):
-   см. объявление "targetVeh"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_draw.c(2555,7): warning C4101: itemNdex: неиспользованная локальная переменная
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_draw.c(2706,14): warning C4456: объявление "targetVeh" скрывает предыдущее локальное объявление
+      D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_draw.c(2672,13):
+       см. объявление "targetVeh"
   
-C:\MyProjects\BasedRP\source\cgame\cg_draw.c(4136,16): warning C4456: объявление "color" скрывает предыдущее локальное объявление
-  C:\MyProjects\BasedRP\source\cgame\cg_draw.c(4042,11):
-   см. объявление "color"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_draw.c(4136,16): warning C4456: объявление "color" скрывает предыдущее локальное объявление
+      D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_draw.c(4042,11):
+       см. объявление "color"
   
-C:\MyProjects\BasedRP\source\cgame\cg_draw.c(4518,12): warning C4456: объявление "color" скрывает предыдущее локальное объявление
-  C:\MyProjects\BasedRP\source\cgame\cg_draw.c(4042,11):
-   см. объявление "color"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_draw.c(4518,12): warning C4456: объявление "color" скрывает предыдущее локальное объявление
+      D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_draw.c(4042,11):
+       см. объявление "color"
   
   cg_drawtools.c
   cg_effects.c
   cg_ents.c
-C:\MyProjects\BasedRP\source\cgame\cg_ents.c(905,123): warning C4047: функция: "const vec_t *" отличается по уровням косвенного обращения от "vec3_t (*)"
-C:\MyProjects\BasedRP\source\cgame\cg_ents.c(905,123): warning C4024: trap_G2API_GetBoltMatrix: различные типы для формального и фактического параметров 5
-C:\MyProjects\BasedRP\source\cgame\cg_ents.c(906,39): warning C4047: функция: "const vec_t *" отличается по уровням косвенного обращения от "vec3_t (*)"
-C:\MyProjects\BasedRP\source\cgame\cg_ents.c(906,39): warning C4024: trap_G2API_GetBoltMatrix: различные типы для формального и фактического параметров 6
-C:\MyProjects\BasedRP\source\cgame\cg_ents.c(906,100): warning C4047: функция: "vec_t *" отличается по уровням косвенного обращения от "vec3_t (*)"
-C:\MyProjects\BasedRP\source\cgame\cg_ents.c(906,100): warning C4024: trap_G2API_GetBoltMatrix: различные типы для формального и фактического параметров 9
-C:\MyProjects\BasedRP\source\cgame\cg_ents.c(912,54): warning C4047: функция: "vec_t *" отличается по уровням косвенного обращения от "vec3_t (*)"
-C:\MyProjects\BasedRP\source\cgame\cg_ents.c(912,54): warning C4024: BG_EvaluateTrajectory: различные типы для формального и фактического параметров 3
-C:\MyProjects\BasedRP\source\cgame\cg_ents.c(914,25): warning C4047: функция: "vec_t *" отличается по уровням косвенного обращения от "vec3_t (*)"
-C:\MyProjects\BasedRP\source\cgame\cg_ents.c(914,25): warning C4024: CG_TestLine: различные типы для формального и фактического параметров 1
-C:\MyProjects\BasedRP\source\cgame\cg_ents.c(914,36): warning C4047: функция: "vec_t *" отличается по уровням косвенного обращения от "vec3_t (*)"
-C:\MyProjects\BasedRP\source\cgame\cg_ents.c(914,36): warning C4024: CG_TestLine: различные типы для формального и фактического параметров 2
-C:\MyProjects\BasedRP\source\cgame\cg_ents.c(2662,123): warning C4047: функция: "const vec_t *" отличается по уровням косвенного обращения от "vec3_t (*)"
-C:\MyProjects\BasedRP\source\cgame\cg_ents.c(2662,123): warning C4024: trap_G2API_GetBoltMatrix: различные типы для формального и фактического параметров 5
-C:\MyProjects\BasedRP\source\cgame\cg_ents.c(2663,39): warning C4047: функция: "const vec_t *" отличается по уровням косвенного обращения от "vec3_t (*)"
-C:\MyProjects\BasedRP\source\cgame\cg_ents.c(2663,39): warning C4024: trap_G2API_GetBoltMatrix: различные типы для формального и фактического параметров 6
-C:\MyProjects\BasedRP\source\cgame\cg_ents.c(2663,100): warning C4047: функция: "vec_t *" отличается по уровням косвенного обращения от "vec3_t (*)"
-C:\MyProjects\BasedRP\source\cgame\cg_ents.c(2663,100): warning C4024: trap_G2API_GetBoltMatrix: различные типы для формального и фактического параметров 9
-C:\MyProjects\BasedRP\source\cgame\cg_ents.c(2669,54): warning C4047: функция: "vec_t *" отличается по уровням косвенного обращения от "vec3_t (*)"
-C:\MyProjects\BasedRP\source\cgame\cg_ents.c(2669,54): warning C4024: BG_EvaluateTrajectory: различные типы для формального и фактического параметров 3
-C:\MyProjects\BasedRP\source\cgame\cg_ents.c(2671,25): warning C4047: функция: "vec_t *" отличается по уровням косвенного обращения от "vec3_t (*)"
-C:\MyProjects\BasedRP\source\cgame\cg_ents.c(2671,25): warning C4024: CG_TestLine: различные типы для формального и фактического параметров 1
-C:\MyProjects\BasedRP\source\cgame\cg_ents.c(2671,36): warning C4047: функция: "vec_t *" отличается по уровням косвенного обращения от "vec3_t (*)"
-C:\MyProjects\BasedRP\source\cgame\cg_ents.c(2671,36): warning C4024: CG_TestLine: различные типы для формального и фактического параметров 2
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_ents.c(905,123): warning C4047: функция: "const vec_t *" отличается по уровням косвенного обращения от "vec3_t (*)"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_ents.c(905,123): warning C4024: trap_G2API_GetBoltMatrix: различные типы для формального и фактического параметров 5
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_ents.c(906,39): warning C4047: функция: "const vec_t *" отличается по уровням косвенного обращения от "vec3_t (*)"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_ents.c(906,39): warning C4024: trap_G2API_GetBoltMatrix: различные типы для формального и фактического параметров 6
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_ents.c(906,100): warning C4047: функция: "vec_t *" отличается по уровням косвенного обращения от "vec3_t (*)"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_ents.c(906,100): warning C4024: trap_G2API_GetBoltMatrix: различные типы для формального и фактического параметров 9
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_ents.c(912,54): warning C4047: функция: "vec_t *" отличается по уровням косвенного обращения от "vec3_t (*)"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_ents.c(912,54): warning C4024: BG_EvaluateTrajectory: различные типы для формального и фактического параметров 3
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_ents.c(914,25): warning C4047: функция: "vec_t *" отличается по уровням косвенного обращения от "vec3_t (*)"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_ents.c(914,25): warning C4024: CG_TestLine: различные типы для формального и фактического параметров 1
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_ents.c(914,36): warning C4047: функция: "vec_t *" отличается по уровням косвенного обращения от "vec3_t (*)"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_ents.c(914,36): warning C4024: CG_TestLine: различные типы для формального и фактического параметров 2
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_ents.c(2662,123): warning C4047: функция: "const vec_t *" отличается по уровням косвенного обращения от "vec3_t (*)"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_ents.c(2662,123): warning C4024: trap_G2API_GetBoltMatrix: различные типы для формального и фактического параметров 5
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_ents.c(2663,39): warning C4047: функция: "const vec_t *" отличается по уровням косвенного обращения от "vec3_t (*)"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_ents.c(2663,39): warning C4024: trap_G2API_GetBoltMatrix: различные типы для формального и фактического параметров 6
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_ents.c(2663,100): warning C4047: функция: "vec_t *" отличается по уровням косвенного обращения от "vec3_t (*)"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_ents.c(2663,100): warning C4024: trap_G2API_GetBoltMatrix: различные типы для формального и фактического параметров 9
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_ents.c(2669,54): warning C4047: функция: "vec_t *" отличается по уровням косвенного обращения от "vec3_t (*)"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_ents.c(2669,54): warning C4024: BG_EvaluateTrajectory: различные типы для формального и фактического параметров 3
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_ents.c(2671,25): warning C4047: функция: "vec_t *" отличается по уровням косвенного обращения от "vec3_t (*)"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_ents.c(2671,25): warning C4024: CG_TestLine: различные типы для формального и фактического параметров 1
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_ents.c(2671,36): warning C4047: функция: "vec_t *" отличается по уровням косвенного обращения от "vec3_t (*)"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_ents.c(2671,36): warning C4024: CG_TestLine: различные типы для формального и фактического параметров 2
   cg_event.c
-C:\MyProjects\BasedRP\source\cgame\cg_event.c(2973,18): warning C4456: объявление "ci" скрывает предыдущее локальное объявление
-  C:\MyProjects\BasedRP\source\cgame\cg_event.c(1655,16):
-   см. объявление "ci"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_event.c(2973,18): warning C4456: объявление "ci" скрывает предыдущее локальное объявление
+      D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_event.c(1655,16):
+       см. объявление "ci"
   
-C:\MyProjects\BasedRP\source\cgame\cg_event.c(3953,18): warning C4456: объявление "ci" скрывает предыдущее локальное объявление
-  C:\MyProjects\BasedRP\source\cgame\cg_event.c(1655,16):
-   см. объявление "ci"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_event.c(3953,18): warning C4456: объявление "ci" скрывает предыдущее локальное объявление
+      D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_event.c(1655,16):
+       см. объявление "ci"
   
-C:\MyProjects\BasedRP\source\cgame\cg_event.c(2810,14): warning C4189: cullPass: локальная переменная инициализирована, но не использована
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_event.c(2810,14): warning C4189: cullPass: локальная переменная инициализирована, но не использована
   cg_holster.c
   cg_info.c
   Создание кода...
-C:\MyProjects\BasedRP\source\game\bg_pmove.c(9318): warning C4706: назначение в пределах условного выражения
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\game\bg_pmove.c(9318): warning C4706: назначение в пределах условного выражения
   Компиляция...
   cg_light.c
   cg_localents.c
   cg_main.c
   cg_marks.c
-C:\MyProjects\BasedRP\source\cgame\cg_marks.c(806,9): warning C4457: объявление "alpha" скрывает параметр функции
-  C:\MyProjects\BasedRP\source\cgame\cg_marks.c(436,63):
-   см. объявление "alpha"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_marks.c(806,9): warning C4457: объявление "alpha" скрывает параметр функции
+      D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_marks.c(436,63):
+       см. объявление "alpha"
   
-C:\MyProjects\BasedRP\source\cgame\cg_marks.c(865,9): warning C4456: объявление "width" скрывает предыдущее локальное объявление
-  C:\MyProjects\BasedRP\source\cgame\cg_marks.c(441,9):
-   см. объявление "width"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_marks.c(865,9): warning C4456: объявление "width" скрывает предыдущее локальное объявление
+      D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_marks.c(441,9):
+       см. объявление "width"
   
-C:\MyProjects\BasedRP\source\cgame\cg_marks.c(865,16): warning C4456: объявление "height" скрывает предыдущее локальное объявление
-  C:\MyProjects\BasedRP\source\cgame\cg_marks.c(442,9):
-   см. объявление "height"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_marks.c(865,16): warning C4456: объявление "height" скрывает предыдущее локальное объявление
+      D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_marks.c(442,9):
+       см. объявление "height"
   
   cg_newDraw.c
   cg_players.c
-C:\MyProjects\BasedRP\source\cgame\cg_players.c(4224,65): warning C4020: BG_SaberStartTransAnim: слишком много фактических параметров
-C:\MyProjects\BasedRP\source\cgame\cg_players.c(10506,50): warning C4047: функция: "float (*)[3]" отличается по уровням косвенного обращения от "vec_t *"
-C:\MyProjects\BasedRP\source\cgame\cg_players.c(10506,50): warning C4024: MatrixMultiply: различные типы для формального и фактического параметров 3
-C:\MyProjects\BasedRP\source\cgame\cg_players.c(10578,8): warning C4456: объявление "i" скрывает предыдущее локальное объявление
-  C:\MyProjects\BasedRP\source\cgame\cg_players.c(10517,9):
-   см. объявление "i"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(4224,65): warning C4020: BG_SaberStartTransAnim: слишком много фактических параметров
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(10506,50): warning C4047: функция: "float (*)[3]" отличается по уровням косвенного обращения от "vec_t *"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(10506,50): warning C4024: MatrixMultiply: различные типы для формального и фактического параметров 3
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(10578,8): warning C4456: объявление "i" скрывает предыдущее локальное объявление
+      D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(10517,9):
+       см. объявление "i"
   
-C:\MyProjects\BasedRP\source\cgame\cg_players.c(14437,13): warning C4456: объявление "up" скрывает предыдущее локальное объявление
-  C:\MyProjects\BasedRP\source\cgame\cg_players.c(14301,20):
-   см. объявление "up"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(14437,13): warning C4456: объявление "up" скрывает предыдущее локальное объявление
+      D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(14301,20):
+       см. объявление "up"
   
-C:\MyProjects\BasedRP\source\cgame\cg_players.c(18674,11): warning C4456: объявление "tAng" скрывает предыдущее локальное объявление
-  C:\MyProjects\BasedRP\source\cgame\cg_players.c(18547,10):
-   см. объявление "tAng"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(18674,11): warning C4456: объявление "tAng" скрывает предыдущее локальное объявление
+      D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(18547,10):
+       см. объявление "tAng"
   
-C:\MyProjects\BasedRP\source\cgame\cg_players.c(18698,59): warning C4047: функция: "vec_t *" отличается по уровням косвенного обращения от "vec3_t [3]"
-C:\MyProjects\BasedRP\source\cgame\cg_players.c(18698,59): warning C4024: trap_FX_PlayEffectID: различные типы для формального и фактического параметров 3
-C:\MyProjects\BasedRP\source\cgame\cg_players.c(18757,11): warning C4456: объявление "tAng" скрывает предыдущее локальное объявление
-  C:\MyProjects\BasedRP\source\cgame\cg_players.c(18547,10):
-   см. объявление "tAng"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(18698,59): warning C4047: функция: "vec_t *" отличается по уровням косвенного обращения от "vec3_t [3]"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(18698,59): warning C4024: trap_FX_PlayEffectID: различные типы для формального и фактического параметров 3
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(18757,11): warning C4456: объявление "tAng" скрывает предыдущее локальное объявление
+      D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(18547,10):
+       см. объявление "tAng"
   
-C:\MyProjects\BasedRP\source\cgame\cg_players.c(18781,59): warning C4047: функция: "vec_t *" отличается по уровням косвенного обращения от "vec3_t [3]"
-C:\MyProjects\BasedRP\source\cgame\cg_players.c(18781,59): warning C4024: trap_FX_PlayEffectID: различные типы для формального и фактического параметров 3
-C:\MyProjects\BasedRP\source\cgame\cg_players.c(20782,62): warning C4047: функция: "vec_t *" отличается по уровням косвенного обращения от "vec3_t [3]"
-C:\MyProjects\BasedRP\source\cgame\cg_players.c(20782,62): warning C4024: trap_FX_PlayEffectID: различные типы для формального и фактического параметров 3
-C:\MyProjects\BasedRP\source\cgame\cg_players.c(20862,63): warning C4047: функция: "vec_t *" отличается по уровням косвенного обращения от "vec3_t [3]"
-C:\MyProjects\BasedRP\source\cgame\cg_players.c(20862,63): warning C4024: trap_FX_PlayEffectID: различные типы для формального и фактического параметров 3
-C:\MyProjects\BasedRP\source\cgame\cg_players.c(20863,63): warning C4047: функция: "vec_t *" отличается по уровням косвенного обращения от "vec3_t [3]"
-C:\MyProjects\BasedRP\source\cgame\cg_players.c(20863,63): warning C4024: trap_FX_PlayEffectID: различные типы для формального и фактического параметров 3
-C:\MyProjects\BasedRP\source\cgame\cg_players.c(16068,12): warning C4189: dead: локальная переменная инициализирована, но не использована
-C:\MyProjects\BasedRP\source\cgame\cg_players.c(18972,8): warning C4189: brightness: локальная переменная инициализирована, но не использована
-C:\MyProjects\BasedRP\source\cgame\cg_players.c(19006,8): warning C4189: brightness: локальная переменная инициализирована, но не использована
-C:\MyProjects\BasedRP\source\cgame\cg_players.c(19037,8): warning C4189: brightness: локальная переменная инициализирована, но не использована
-C:\MyProjects\BasedRP\source\cgame\cg_players.c(20998,8): warning C4189: brightness: локальная переменная инициализирована, но не использована
-C:\MyProjects\BasedRP\source\cgame\cg_players.c(21040,8): warning C4189: brightness: локальная переменная инициализирована, но не использована
-C:\MyProjects\BasedRP\source\cgame\cg_players.c(21081,8): warning C4189: brightness: локальная переменная инициализирована, но не использована
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(18781,59): warning C4047: функция: "vec_t *" отличается по уровням косвенного обращения от "vec3_t [3]"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(18781,59): warning C4024: trap_FX_PlayEffectID: различные типы для формального и фактического параметров 3
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(20782,62): warning C4047: функция: "vec_t *" отличается по уровням косвенного обращения от "vec3_t [3]"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(20782,62): warning C4024: trap_FX_PlayEffectID: различные типы для формального и фактического параметров 3
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(20862,63): warning C4047: функция: "vec_t *" отличается по уровням косвенного обращения от "vec3_t [3]"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(20862,63): warning C4024: trap_FX_PlayEffectID: различные типы для формального и фактического параметров 3
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(20863,63): warning C4047: функция: "vec_t *" отличается по уровням косвенного обращения от "vec3_t [3]"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(20863,63): warning C4024: trap_FX_PlayEffectID: различные типы для формального и фактического параметров 3
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(16068,12): warning C4189: dead: локальная переменная инициализирована, но не использована
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(18972,8): warning C4189: brightness: локальная переменная инициализирована, но не использована
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(19006,8): warning C4189: brightness: локальная переменная инициализирована, но не использована
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(19037,8): warning C4189: brightness: локальная переменная инициализирована, но не использована
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(20998,8): warning C4189: brightness: локальная переменная инициализирована, но не использована
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(21040,8): warning C4189: brightness: локальная переменная инициализирована, но не использована
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(21081,8): warning C4189: brightness: локальная переменная инициализирована, но не использована
   cg_playerstate.c
   cg_predict.c
-C:\MyProjects\BasedRP\source\cgame\cg_predict.c(91,7): warning C4456: объявление "i" скрывает предыдущее локальное объявление
-  C:\MyProjects\BasedRP\source\cgame\cg_predict.c(47,9):
-   см. объявление "i"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_predict.c(91,7): warning C4456: объявление "i" скрывает предыдущее локальное объявление
+      D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_predict.c(47,9):
+       см. объявление "i"
   
   cg_saga.c
   cg_scoreboard.c
@@ -181,15 +181,15 @@ C:\MyProjects\BasedRP\source\cgame\cg_predict.c(91,7): warning C4456: объяв
   cg_view.c
   cg_weaponinit.c
   cg_weapons.c
-C:\MyProjects\BasedRP\source\cgame\cg_weapons.c(1494,15): warning C4456: объявление "flash" скрывает предыдущее локальное объявление
-  C:\MyProjects\BasedRP\source\cgame\cg_weapons.c(506,14):
-   см. объявление "flash"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_weapons.c(1494,15): warning C4456: объявление "flash" скрывает предыдущее локальное объявление
+      D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_weapons.c(506,14):
+       см. объявление "flash"
   
   FighterNPC.c
   fx_blaster.c
   Создание кода...
-C:\MyProjects\BasedRP\source\cgame\cg_players.c(2723): warning C4706: назначение в пределах условного выражения
-C:\MyProjects\BasedRP\source\cgame\cg_players.c(11943): warning C4703: используется потенциально неинициализированная локальная переменная-указатель "saberTrail"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(2723): warning C4706: назначение в пределах условного выражения
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\cgame\cg_players.c(11943): warning C4703: используется потенциально неинициализированная локальная переменная-указатель "saberTrail"
   Компиляция...
   fx_bowcaster.c
   fx_bryarpistol.c
@@ -203,15 +203,15 @@ C:\MyProjects\BasedRP\source\cgame\cg_players.c(11943): warning C4703: испо�
   q_shared.c
   SpeederNPC.c
   ui_shared.c
-C:\MyProjects\BasedRP\source\ui\ui_shared.c(6110,14): warning C4456: объявление "parent" скрывает предыдущее локальное объявление
-  C:\MyProjects\BasedRP\source\ui\ui_shared.c(6101,14):
-   см. объявление "parent"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\ui\ui_shared.c(6110,14): warning C4456: объявление "parent" скрывает предыдущее локальное объявление
+      D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\ui\ui_shared.c(6101,14):
+       см. объявление "parent"
   
-C:\MyProjects\BasedRP\source\ui\ui_shared.c(6666,9): warning C4456: объявление "color" скрывает предыдущее локальное объявление
-  C:\MyProjects\BasedRP\source\ui\ui_shared.c(6168,10):
-   см. объявление "color"
+D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\ui\ui_shared.c(6666,9): warning C4456: объявление "color" скрывает предыдущее локальное объявление
+      D:\Star Wars JA\ZZZ Razrabotka\BasedRP\source\ui\ui_shared.c(6168,10):
+       см. объявление "color"
   
   WalkerNPC.c
   Создание кода...
      Создается библиотека .\../Final/cgamex86.lib и объект .\../Final/cgamex86.exp
-  JK2_cgame.vcxproj -> C:\MyProjects\BasedRP\ojpenhanced\cgamex86.dll
+  JK2_cgame.vcxproj -> D:\Star Wars JA\ZZZ Razrabotka\BasedRP\ojpenhanced\cgamex86.dll
