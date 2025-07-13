@@ -109,3 +109,4 @@ resources/*
 *.log
 *.tlog
 *.1.tlog
+*.vs/
