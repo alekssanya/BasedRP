@@ -2642,6 +2642,7 @@ void BotOrderParser(gentity_t *ent, gentity_t *target, int mode, const char *cha
 }
 //[/TABBot]
 
+extern qboolean player_locked;
 
 void paralyze_player(int client_id) {
 	if (client_id == -1) {
@@ -2656,7 +2657,7 @@ void paralyze_player(int client_id) {
 
 	// GalaxyRP (Alex): [Death System] Paralyze the target player.
 	ent->client->pers.player_statuses |= (1 << 6);
-
+	player_locked = qtrue;
 	// —охран€ем текущую анимацию ног
 	ent->client->pers.downedAnim = ent->client->ps.forceDodgeAnim;
 
@@ -2753,12 +2754,8 @@ void help_up(gentity_t* ent, gentity_t* target) {
 		if (target->flags & FL_NOTARGET) {
 			target->flags ^= FL_NOTARGET;
 		}
-
-		if (rp_downed_invulnerability_timer.integer) {
-			target->client->invulnerableTimer = 0; // сброс таймера
-			target->client->ps.eFlags &= ~EF_INVULNERABLE; // убрать флаг неу€звимости
-		}
-
+	
+		player_locked = qfalse;
 		target->client->invulnerableTimer = 0; // сброс таймера
 		target->client->ps.eFlags &= ~EF_INVULNERABLE; // убрать флаг неу€звимости
 		target->client->ps.forceHandExtend = HANDEXTEND_NONE;
