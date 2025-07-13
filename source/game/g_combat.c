@@ -7304,6 +7304,8 @@ void G_Damage( gentity_t *targ, gentity_t *inflictor, gentity_t *attacker,
 				//GalaxyRP (Alex): [New Death System] If player is paralyzed and was attacked fuirther, kill them permanently.
 				if (targ->client->pers.player_statuses & (1 << 6)) {
 					targ->client->pers.player_statuses &= ~(1 << 6);
+					extern qboolean player_locked;
+					player_locked = qfalse;
 
 					targ->die(targ, inflictor, attacker, take, mod);
 					G_ActivateBehavior(targ, BSET_DEATH);
