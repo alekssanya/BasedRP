@@ -3839,6 +3839,9 @@ void BG_SetAnim(playerState_t *ps, animation_t *animations, int setAnimParts,int
 
 void PM_SetAnim(int setAnimParts,int anim,int setAnimFlags, int blendTime)
 {	
+	if (pm->ps->pm_type == PM_FREEZE) {
+		return; //фикс анимации при смерти?
+	}
 	BG_SetAnim(pm->ps, pm->animations, setAnimParts, anim, setAnimFlags, blendTime);
 }
 
