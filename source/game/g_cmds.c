@@ -1126,10 +1126,18 @@ Cmd_Kill_f
 =================
 */
 //[AdminSys]
+/*
 extern vmCvar_t	g_autoKickKillSpammers;
 extern vmCvar_t	g_autoBanKillSpammers;
+*/
 //[/AdminSys]
 void Cmd_Kill_f( gentity_t *ent ) {
+
+	if (ent->client->pers.player_statuses & (1 << 6))
+	{
+		extern void help_up();
+		help_up(ent, ent, qtrue);
+	}
 	//[BugFix41]
 	//if ( ent->client->sess.sessionTeam == TEAM_SPECTATOR ) {
 	if ( ent->client->sess.sessionTeam == TEAM_SPECTATOR || ent->client->tempSpectate >= level.time ) {
@@ -1154,6 +1162,7 @@ void Cmd_Kill_f( gentity_t *ent ) {
 	}
 
 //[AdminSys]
+	/*
 	if ( g_autoKickKillSpammers.integer > 0
 		|| g_autoBanKillSpammers.integer > 0 )
 	{
@@ -1193,6 +1202,7 @@ void Cmd_Kill_f( gentity_t *ent ) {
 			trap_SendServerCommand( ent-g_entities, va("print \"%s\n\"", G_GetStringEdString("MP_SVGAME_ADMIN", "WARNINGSUICIDEKICK")) );
 		}
 	}
+	*/
 //[/AdminSys]
 	ent->flags &= ~FL_GODMODE;
 	ent->client->ps.stats[STAT_HEALTH] = ent->health = -999;
@@ -2744,19 +2754,14 @@ qboolean can_player_get_up(gentity_t* ent, gentity_t* target) {
 	}
 }
 
-void help_up(gentity_t* ent, gentity_t* target) {
-	if (can_player_get_up(ent, target)) {
+void help_up(gentity_t* ent, gentity_t* target, qboolean isSuicide) {
+	if ((can_player_get_up(ent, target)) || isSuicide) {
 		//GalaxyRP (Alex): [Death System] No longer paralyzed.
 
 		target->client->pers.player_statuses &= ~(1 << 6);
 
 		if (target->flags & FL_NOTARGET) {
 			target->flags ^= FL_NOTARGET;
-		}
-
-		if (rp_downed_invulnerability_timer.integer) {
-			target->client->invulnerableTimer = 0; // сброс таймера
-			target->client->ps.eFlags &= ~EF_INVULNERABLE; // убрать флаг неу€звимости
 		}
 
 		target->client->invulnerableTimer = 0; // сброс таймера
@@ -2793,7 +2798,7 @@ void Cmd_Helpup_f(gentity_t* ent) {
 
 	target = &g_entities[i];
 
-	help_up(ent, target);
+	help_up(ent, target, qfalse);
 
 	return;
 }
@@ -2808,7 +2813,7 @@ void Cmd_Getup_f(gentity_t* ent) {
 
 	//GalaxyRP (Alex): [Death System] If player's timer is done or he is an admin, allow them to get up.
 	if (ent->client->downedTime == 0 /* || check_admin_command(ent, ADM_GETUP, qfalse)*/) {
-		help_up(ent, ent);
+		help_up(ent, ent, qfalse);
 		return;
 	}
 
