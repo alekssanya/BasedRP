@@ -2668,7 +2668,7 @@ void paralyze_player(int client_id) {
 	ent->client->pers.player_statuses |= (1 << 6);
 
 	// —охран€ем текущую анимацию ног
-	ent->client->pers.downedAnim = ent->client->ps.forceDodgeAnim;
+	//ent->client->pers.downedAnim = ent->client->ps.forceDodgeAnim;
 
 	// Ѕлокируем ввод полностью
 	ent->client->ps.pm_type = PM_FREEZE;
@@ -2677,10 +2677,10 @@ void paralyze_player(int client_id) {
 	ent->client->invulnerableTimer = level.time + 10000;
 
 	ent->client->ps.forceHandExtend = HANDEXTEND_KNOCKDOWN;
-	ent->client->ps.forceHandExtendTime = level.time + 9999999;
+	//ent->client->ps.forceHandExtendTime = level.time + 9999999;
 	ent->client->ps.velocity[2] += 150;
-	ent->client->ps.forceDodgeAnim = 0;
-	ent->client->ps.quickerGetup = qtrue;
+	//ent->client->ps.forceDodgeAnim = 0;
+
 
 	// GalaxyRP (Alex): [Death System] Set their HP to 50 so they don't die the old way instantly.
 	ent->client->ps.stats[STAT_HEALTH] = 50;
@@ -2764,6 +2764,7 @@ void help_up(gentity_t* ent, gentity_t* target, qboolean isSuicide) {
 			target->flags ^= FL_NOTARGET;
 		}
 
+		target->client->ps.pm_type = PM_NORMAL;
 		target->client->invulnerableTimer = 0; // сброс таймера
 		target->client->ps.eFlags &= ~EF_INVULNERABLE; // убрать флаг неу€звимости
 		target->client->ps.forceHandExtend = HANDEXTEND_NONE;

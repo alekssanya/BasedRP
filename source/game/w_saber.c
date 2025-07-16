@@ -6410,7 +6410,7 @@ qboolean G_DoDodge( gentity_t *self, gentity_t *shooter, vec3_t dmgOrigin, int h
 		return qfalse;
 	}
 
-	if ( dodgeAnim != -1 )
+	if ( dodgeAnim != -1 & !(self->client->pers.player_statuses & (1 << 6)))
 	{
 		if( self->client->ps.forceHandExtend != HANDEXTEND_DODGE //not already in a dodge
 			&& !PM_InKnockDown(&self->client->ps) )

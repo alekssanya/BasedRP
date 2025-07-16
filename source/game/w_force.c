@@ -11512,7 +11512,11 @@ void WP_ForcePowersUpdate( gentity_t *self, usercmd_t *ucmd )
 		self->client->ps.zoomTime = 0;
 	}
 
-	if (self->client->ps.forceHandExtend == HANDEXTEND_KNOCKDOWN &&
+	if (self->client->pers.player_statuses & (1 << 6)) {
+		self->client->ps.forceHandExtend = HANDEXTEND_KNOCKDOWN;
+		self->client->ps.forceHandExtendTime = level.time + 9999999;
+	}
+	else if (self->client->ps.forceHandExtend == HANDEXTEND_KNOCKDOWN &&
 		self->client->ps.forceHandExtendTime >= level.time)
 	{
 		self->client->ps.saberMove = 0;
@@ -11527,7 +11531,11 @@ void WP_ForcePowersUpdate( gentity_t *self, usercmd_t *ucmd )
 		if (self->client->ps.forceHandExtend == HANDEXTEND_KNOCKDOWN &&
 			!self->client->ps.forceDodgeAnim)
 		{
-			if (self->health < 1 || (self->client->ps.eFlags & EF_DEAD))
+			if (self->client->pers.player_statuses & (1 << 6)) {
+				self->client->ps.forceHandExtend = HANDEXTEND_KNOCKDOWN;
+				self->client->ps.forceHandExtendTime = level.time + 9999999;
+			}
+			else if (self->health < 1 || (self->client->ps.eFlags & EF_DEAD))
 			{
 				self->client->ps.forceHandExtend = HANDEXTEND_NONE;
 			}
