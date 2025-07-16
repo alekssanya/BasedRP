@@ -848,20 +848,13 @@ void ClientTimerActions(gentity_t* ent, int msec) {
 		*/
 		//[/ExpSys]
 
-		if (ent->client->pers.player_statuses & (1 << 6)) {
-			ent->client->ps.forceHandExtend = HANDEXTEND_KNOCKDOWN;
-			ent->client->ps.forceDodgeAnim = ent->client->pers.downedAnim;
-		}
-
 		//GalaxyRP (Alex): [Death System] This timer represents the time that a player has left until they can get up from being downed.
 		if (client->downedTime)
 		{
-
 			if (client->downedTime <= rp_downed_timer.integer)
 			{
 				trap_SendServerCommand(ent->s.number, va("cp \"^1You are downed.\nTime Remaining: %d\"", client->downedTime));
 			}
-
 
 			client->downedTime--;
 
@@ -2869,6 +2862,12 @@ void ClientThink_real(gentity_t* ent) {
 				skippingCutscene = qfalse;
 				trap_Cvar_Set("timescale", "1");
 			}
+		}
+		if (ent->client->pers.player_statuses & (1 << 6)) {
+			ucmd->forwardmove = 0;
+			ucmd->rightmove = 0;
+			ucmd->upmove = 0;
+			ucmd->buttons = 0;
 		}
 
 		if (player_locked)
@@ -5062,6 +5061,12 @@ void ClientThink_real(gentity_t* ent) {
 	// perform once-a-second actions
 	ClientTimerActions(ent, msec);
 	//tyt
+	if (ent->client->pers.player_statuses & (1 << 6)) {
+		// »грок повержен Ч принудительно поддерживаем анимацию knockdown
+		ent->client->ps.forceHandExtend = HANDEXTEND_KNOCKDOWN;
+		ent->client->ps.forceDodgeAnim = 0; // или ent->client->pers.downedAnim, если ты сохран€ешь
+		ent->client->ps.forceHandExtendTime = level.time + 10009;
+	}
 	G_UpdateClientBroadcasts(ent);
 
 	//try some idle anims on ent if getting no input and not moving for some time

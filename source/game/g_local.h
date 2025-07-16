@@ -603,7 +603,6 @@ typedef struct {
 	//6 - кнокдаун
 	int player_statuses;
 
-	int downedAnim; // Запоминаем анимацию в которой игрок упал для системы смерти
 } clientPersistant_t;
 
 typedef struct renderInfo_s
