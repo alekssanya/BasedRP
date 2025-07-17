@@ -1,6 +1,6 @@
  cgamex86
 
- Timestamp is 68729e4c (Sat Jul 12 21:41:32 2025)
+ Timestamp is 6877abca (Wed Jul 16 17:40:26 2025)
 
  Preferred load address is 30000000
 
@@ -9776,10 +9776,10 @@
  0001:000043b8       $LN24                      300053b8     bg_panimate.obj
  0001:000043bc       $LN23                      300053bc     bg_panimate.obj
  0001:00004424       $LN13                      30005424     bg_panimate.obj
- 0001:000046bc       $LN71                      300056bc     bg_panimate.obj
- 0001:000046c4       $LN70                      300056c4     bg_panimate.obj
- 0001:000046e0       $LN73                      300056e0     bg_panimate.obj
- 0001:000046e8       $LN72                      300056e8     bg_panimate.obj
+ 0001:000046c8       $LN72                      300056c8     bg_panimate.obj
+ 0001:000046d0       $LN71                      300056d0     bg_panimate.obj
+ 0001:000046ec       $LN74                      300056ec     bg_panimate.obj
+ 0001:000046f4       $LN73                      300056f4     bg_panimate.obj
  0001:00004be8       $LN20                      30005be8     bg_pmove.obj
  0001:00004c38       $LN12                      30005c38     bg_pmove.obj
  0001:00004c40       $LN11                      30005c40     bg_pmove.obj

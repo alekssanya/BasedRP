@@ -109,11 +109,8 @@ resources/*
 *.log
 *.tlog
 *.1.tlog
-<<<<<<< HEAD
 *.vs/
-=======
 /source/Debug/*
 ojpenhanced/*
 !ojpenhanced/ui/
 !ojpenhanced/ui/**
->>>>>>> 1e46f176fab4867704e694f0022a1e3701bc448c
