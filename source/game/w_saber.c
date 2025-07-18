@@ -12998,6 +12998,12 @@ qboolean G_BlockIsParry( gentity_t *self, gentity_t *attacker, vec3_t hitLoc )
 	{//can't parry attacks to the rear.
 		return qfalse;
 	}
+
+	// BasedRP: запрет парирования, если игрок лежит (downed)
+	if (self->client->pers.player_statuses & (1 << 6)) {
+		return qfalse;
+	}
+
 	else if(PM_SaberInKnockaway(self->client->ps.saberMove) )
 	{//already in parry move, continue parrying anything that hits us as long as 
 		//the attacker is in the same general area that we're facing.
@@ -13077,6 +13083,11 @@ qboolean G_BlockIsQuickParry( gentity_t *self, gentity_t *attacker, vec3_t hitLo
     
 	if(!(self->client->pers.cmd.buttons & BUTTON_15))
 	{
+		return qfalse;
+	}
+
+	// BasedRP: запрет парирования, если игрок лежит (downed)
+	if (self->client->pers.player_statuses & (1 << 6)) {
 		return qfalse;
 	}
 
@@ -13383,6 +13394,11 @@ void DebounceSaberImpact(gentity_t *self, gentity_t *otherSaberer,
 extern qboolean PM_SaberInReturn( int move );
 qboolean G_InAttackParry(gentity_t *self)
 {//checks to see if a player is doing an attack parry
+
+	// BasedRP: запрет парирования, если игрок лежит (downed)
+	if (self->client->pers.player_statuses & (1 << 6)) {
+		return qfalse;
+	}
 
 	if((self->client->pers.cmd.buttons & BUTTON_ATTACK)
 		|| (self->client->pers.cmd.buttons & BUTTON_ALT_ATTACK))
