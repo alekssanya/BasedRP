@@ -2664,6 +2664,10 @@ void paralyze_player(int client_id) {
 		ent->flags ^= FL_NOTARGET;
 	}
 
+	//переключаем на кулаки принудительно, чтобы не было кувырков в парировании
+	ent->client->ps.weapon = WP_MELEE;
+	ent->s.weapon = WP_MELEE;
+
 	// GalaxyRP (Alex): [Death System] Paralyze the target player.
 	ent->client->pers.player_statuses |= (1 << 6);
 
