@@ -110,6 +110,7 @@ resources/*
 *.log
 *.tlog
 *.1.tlog
+*.vs/
 /source/Debug/*
 ojpenhanced/*
 !ojpenhanced/ui/

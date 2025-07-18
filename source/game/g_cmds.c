@@ -994,9 +994,9 @@ argv(0) noclip
 void Cmd_Noclip_f( gentity_t *ent ) {
 	char	*msg;
 
-	if ( !CheatsOk( ent ) ) {
+	/*if (!CheatsOk(ent)) {
 		return;
-	}
+	}*/ //отменил проверку на админство для ноуклипа
 
 	//[CoOp]
 	if (in_camera)

@@ -3348,7 +3348,7 @@ void ClientThink_real(gentity_t* ent) {
 		//10 seconds. This will give other people a chance to engage in duels in case this player wants
 		//to engage again right after he's done fighting and someone else is waiting.
 		//[DuelSys]
-		ent->client->ps.fd.privateDuelTime = level.time + (g_duelTimer.integer * 1000);//10000;
+		ent->client->ps.fd.privateDuelTime = level.time + (3 * 1000);//10000; g_duelTimer.integer изменено кд времени дуэли на 3 секунды
 		//ent->client->ps.fd.privateDuelTime = level.time + 10000;
 		//[/DuelSys]
 
