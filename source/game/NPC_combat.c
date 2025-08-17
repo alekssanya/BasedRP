@@ -1730,7 +1730,7 @@ float NPC_MaxDistSquaredForWeapon (void)
 }
 
 //[CoOp]
-//This replaces ValidEnemy.
+//This replaces ValidEnemy. //заметка нпс
 qboolean G_ValidEnemy( gentity_t *self, gentity_t *enemy )
 {
 	//Must be a valid pointer
