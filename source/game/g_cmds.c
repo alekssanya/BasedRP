@@ -2963,7 +2963,7 @@ void G_Say(gentity_t* ent, gentity_t* target, int mode, const char* chatText) {
 
 		G_LogPrintf("say: %s: %s\n", ent->client->pers.netname, text);
 		Com_sprintf(name, sizeof(name), "%s%c%c"EC": ", ent->client->pers.netname, Q_COLOR_ESCAPE, COLOR_WHITE);
-		color = COLOR_GREEN;
+		color = COLOR_WHITE;  //чат белого цвета
 		//set the desired distance here
 		distance = 700;
 		break;

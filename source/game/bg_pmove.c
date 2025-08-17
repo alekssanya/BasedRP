@@ -15075,9 +15075,17 @@ void PmoveSingle(pmove_t* pmove) {
 	// set the talk balloon flag // иконка чата фикс
 	if (pm->cmd.buttons & BUTTON_TALK) {
 		pm->ps->eFlags |= EF_TALK;
+		//if (!pm->ps->duelInProgress)
+		//{
+		   // pm->ps->eFlags |= EF_INVULNERABLE;
+		//}
 	}
 	else {
 		pm->ps->eFlags &= ~EF_TALK;
+		//if (!pm->ps->duelInProgress)
+		//{
+		   // pm->ps->eFlags &= ~EF_INVULNERABLE;
+		//}
 	}
 
 	pm_cancelOutZoom = qfalse;

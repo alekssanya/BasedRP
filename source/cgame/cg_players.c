@@ -5989,12 +5989,12 @@ static void CG_PlayerSprites( centity_t *cent ) {
 														
 		 
   
-//	else if ( cent->currentState.eType != ET_NPC && //don't draw talk balloons on NPCs
-//		(cent->currentState.eFlags & EF_TALK) )
-//	{
-//		CG_PlayerFloatSprite( cent, cgs.media.balloonShader );
-//		return;
-//	}
+	else if ( cent->currentState.eType != ET_NPC && //don't draw talk balloons on NPCs //иконка чата фикс
+		(cent->currentState.eFlags & EF_TALK) )
+	{
+		CG_PlayerFloatSprite( cent, cgs.media.balloonShader );
+		return;
+	}
 }
 
 /*
