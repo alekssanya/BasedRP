@@ -3641,7 +3641,7 @@ void ClientThink_real(gentity_t* ent) {
 			ent->client->ps.duelInProgress = 0;
 			G_AddEvent(ent, EV_PRIVATE_DUEL, 0);
 		}
-		else if (duelAgainst->health < 1 || duelAgainst->client->ps.stats[STAT_HEALTH] < 1)
+		else if (duelAgainst->health < 1 || duelAgainst->client->ps.stats[STAT_HEALTH] < 1 || duelAgainst->client->pers.player_statuses & (1 << 6)) //заметка пробуем регистрировать победу в дуэли
 		{//racc - our opponent died.
 			ent->client->ps.duelInProgress = 0;
 			duelAgainst->client->ps.duelInProgress = 0;

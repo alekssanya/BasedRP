@@ -770,7 +770,7 @@ typedef enum {
 //#define EF_NOT_USED_1			(1<<12)		// not used
 //[/CoOp]
 #define EF_ANIM_ONCE			(1<<13)		// cycle through all frames just once then stop
-//#define	EF_TALK					(1<<13)		// draw a talk balloon
+#define	EF_TALK					(1<<13)		// draw a talk balloon Ивонка чата фикс
 //#define	EF_CONNECTION			(1<<13)		// draw a connection trouble sprite
 //#define	EF_NOT_USED_6			(1<<15)		// not used
 //#define EF_WALK					(1<<15)

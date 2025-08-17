@@ -2869,6 +2869,8 @@ const chat_modifiers_t chat_modifiers[] = {
 	{"/comm",		"chat \"^6<%s^6>^3 -C-^2%s\n\"",					BROADCAST_DISTANCE	},
 	{"/c",			"chat \"^6<%s^6>^3 -C-^2%s\n\"",					BROADCAST_DISTANCE	},
 	{"/thought",	"chat \"%s ^7is thinking: %s\n\"",					BROADCAST_DISTANCE	},
+	{"/ooc",		"chat \"^1[OOC]^7 %s^7:%s\n\"",				    	BROADCAST_DISTANCE	}, //Добавил ooc чат
+	{"//",		    "chat \"^1[OOC]^7 %s^7:%s\n\"",				    	BROADCAST_DISTANCE	}, //Добавил ooc чат вторую вариацию
 };
 
 void G_Say(gentity_t* ent, gentity_t* target, int mode, const char* chatText) {

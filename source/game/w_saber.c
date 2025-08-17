@@ -185,7 +185,7 @@ int BasicDodgeCosts[MOD_MAX] =
 	-1,		//MOD_UNKNOWN,
 	-1,		//MOD_STUN_BATON,
 	-1,		//MOD_MELEE,
-	40,		//MOD_SABER,
+	30,		//MOD_SABER,(уменьшил стоимость дефенса удара мечом на 10 с 40 до 30)
 	10,		//MOD_BRYAR_PISTOL,
 	-1,		//MOD_BRYAR_PISTOL_ALT,
 	10,		//MOD_BLASTER,
@@ -2663,7 +2663,7 @@ int G_KnockawayForParry( int move )
 	}
 }
 
-#define SABER_NONATTACK_DAMAGE 50
+#define SABER_NONATTACK_DAMAGE 20 // убрал урон у меча при простоях (с 50 понизил до 20)
 
 //For strong attacks, we ramp damage based on the point in the attack animation
 GAME_INLINE int G_GetAttackDamage(gentity_t *self, int minDmg, int maxDmg, float multPoint)

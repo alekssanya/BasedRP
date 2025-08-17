@@ -7308,12 +7308,23 @@ void G_Damage( gentity_t *targ, gentity_t *inflictor, gentity_t *attacker,
 					targ->die(targ, inflictor, attacker, take, mod);
 					G_ActivateBehavior(targ, BSET_DEATH);
 				}
-				//GalaxyRP (Alex): [New Death System] Player was alive, so down them instead of killing them.
+				//GalaxyRP (Alex): [New Death System] Player was alive, so down them instead of killing them. Изменил хуйню нажеюсь заработает очки за парализацию
 				else {
 					int client_id = -1;
 					client_id = ClientNumberFromString(targ, targ->client->pers.netname, qfalse);
 
 					targ->client->downedTime = rp_downed_timer.integer;
+
+					if (client_id >= 0 && client_id < MAX_CLIENTS &&
+						g_entities[client_id].inuse && g_entities[client_id].client &&
+						client_id == attacker->s.number)
+					{
+						AddScore(&g_entities[client_id], targ->r.currentOrigin, 1);
+					}
+					else
+					{
+						AddScore(attacker, targ->r.currentOrigin, 1);
+					}
 
 					paralyze_player(client_id);
 				}
