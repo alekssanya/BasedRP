@@ -544,7 +544,7 @@ extern int forceMasteryPoints[NUM_FORCE_MASTERY_LEVELS];
 
 //Made defines for saber offense/defense level 1 since UpdateForceUsed() manually changes this values based on if sabers are given for free or not.
 //[ExpSys]
-#define SABER_OFFENSE_L1	1  
+#define SABER_OFFENSE_L1	10  //фикс стоимости форсы по скилл поинтам
 #define SABER_DEFENSE_L1	5
 //#define SABER_OFFENSE_L1	4  
 //#define SABER_DEFENSE_L1	4

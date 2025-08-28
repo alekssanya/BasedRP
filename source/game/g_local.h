@@ -596,6 +596,12 @@ typedef struct {
 	qboolean ojpClientPlugIn;
 	//[/ClientPlugInDetect]
 	
+	//OpenRP - teleport stuff (credit to ClanMod for this)
+	int	amtelemark1;
+	int	amtelemark2;
+	int	amtelemark3;
+	int	amtelemarkyaw;
+	qboolean	amtelemarkset;
 	
 	//0 - заглушен ( не реализовано )
 	//1 - использует эмоцию
@@ -2527,5 +2533,6 @@ extern void Sphereshield_On( gentity_t *self );
 extern void Sphereshield_Off( gentity_t *self );
 extern void Overload_On( gentity_t *self );
 extern void Overload_Off( gentity_t *self );	
+
 
 #endif

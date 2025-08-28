@@ -175,8 +175,8 @@ int bgForcePowerCost[NUM_TOTAL_SKILLS][NUM_FORCE_POWER_LEVELS] = //0 == neutral
 {
 	//[ExpSys]
 	{	0,	5,	8,	10	},	// Heal			// FP_HEAL
-	{	0,	1,	5,	10	},	// Jump			//FP_LEVITATION,//hold/duration -- lvl3 was 10
-	{	0,	1,	5,	10	},	// Speed		//FP_SPEED,//duration
+	{	0,	3,	5,	10	},	// Jump			//FP_LEVITATION,//hold/duration -- lvl3 was 10 фикс стоимости форсы по скилл поинтам
+	{	0,	3,	5,	10	},	// Speed		//FP_SPEED,//duration фикс стоимости форсы по скилл поинтам
 	{	0,	3,	6,	10	},	// Push			//FP_PUSH,//hold/duration
 	{	0,	3,	6,	10	},	// Pull			//FP_PULL,//hold/duration
 	{	0,	4,	8,	10	},	// Mind Trick	//FP_TELEPATHY,//instant -- lvl3 was 10

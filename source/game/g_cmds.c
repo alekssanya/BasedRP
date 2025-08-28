@@ -4981,6 +4981,458 @@ qboolean TryGrapple(gentity_t *ent)
 	return qfalse;
 }
 
+// пытаюсь сделать телепорт // скопировал из ќпен–ѕ
+
+//реализаци€ телепорта
+
+void Admin_Teleport(gentity_t* ent)
+{
+	vec3_t		origin;
+	char		buffer[MAX_TOKEN_CHARS];
+	int			i;
+
+	if (!CheatsOk(ent)) {
+		return;
+	}
+
+	if (trap_Argc() != 4) {
+		trap_SendServerCommand(ent - g_entities, va("print \"usage: tele (X) (Y) (Z)\ntype in /origin OR /origin (name) to find out (X) (Y) (Z)\n\""));
+		return;
+	}
+
+	for (i = 0; i < 3; i++) {
+		trap_Argv(i + 1, buffer, sizeof(buffer));
+		origin[i] = atof(buffer);
+	}
+
+	TeleportPlayer(ent, origin, ent->client->ps.viewangles);
+}
+
+//
+
+qboolean M_PartialMatch(const char* s1, const char* s2)
+{
+	int s1len, s2len, maxlen;
+	char s1lwr[MAX_STRING_CHARS];
+	char s2lwr[MAX_STRING_CHARS];
+	s1len = strlen(s1);
+	s2len = strlen(s2);
+	maxlen = s1 > s2 ? s1len : s2len;
+
+	// Strings to lowercase (So we have case independend comparison):
+	strcpy(s1lwr, s1);
+	strcpy(s2lwr, s2);
+	Q_strlwr(s1lwr);
+	Q_strlwr(s2lwr);
+
+	if (strstr(s2lwr, s1lwr)) {
+		return qtrue;
+	}
+	else {
+		return qfalse;
+	}
+}
+/*
+==================
+M_SanitizeString
+
+Remove case and control characters (Same as in g_cmds.c).
+==================
+*/
+static void M_SanitizeString(char* in, char* out) {
+	int i = 0;
+	int r = 0;
+
+	while (in[i])
+	{
+		if (i >= MAX_NAME_LENGTH - 1)
+		{ //the ui truncates the name here..
+			break;
+		}
+
+		if (in[i] == '^')
+		{
+			if (in[i + 1] >= 48 && //'0'
+				in[i + 1] <= 57) //'9'
+			{ //only skip it if there's a number after it for the color
+				i += 2;
+				continue;
+			}
+			else
+			{ //just skip the ^
+				i++;
+				continue;
+			}
+		}
+
+		if (in[i] < 32)
+		{
+			i++;
+			continue;
+		}
+
+		out[r] = in[i];
+		r++;
+		i++;
+	}
+	out[r] = 0;
+}
+/*
+==================
+M_SanitizeString2
+
+Remove case and control characters
+==================
+*/
+static void M_SanitizeString2(char* in, char* out) {
+	while (*in) {
+		if (*in == 27) {
+			in += 2;		// skip color code
+			continue;
+		}
+		if (*in < 32) {
+			in++;
+			continue;
+		}
+		*out++ = tolower(*in++);
+	}
+	*out = 0;
+}
+/*
+==================
+M_IsInteger
+
+==================
+*/
+qboolean M_IsInteger(const char* name)
+{
+	int len;
+	int i;
+
+	len = strlen(name);
+
+	for (i = 0; i < len; i++) {
+		switch (name[i])
+		{
+		case '0':
+		case '1':
+		case '2':
+		case '3':
+		case '4':
+		case '5':
+		case '6':
+		case '7':
+		case '8':
+		case '9':
+			break;
+
+		default:
+			return qfalse;
+		};
+	}
+	return qtrue;
+}
+
+//
+
+int M_G_ClientNumberFromName(const char* name)
+{
+	char		s2[MAX_STRING_CHARS];
+	char		n2[MAX_STRING_CHARS];
+	int			i;
+	gclient_t* cl;
+
+	// Try to read the name as a clientid number:
+	if (M_IsInteger(name))
+	{
+		i = atoi(name);
+		if (i < 0 || i > level.maxclients) {
+			// Might be that client has a number for a name so check that later on.
+		}
+		else
+		{
+			return i;
+		}
+	}
+
+	// Try method 1:
+	// check for a name match
+	M_SanitizeString((char*)name, s2);
+	for (i = 0, cl = level.clients; i < level.maxclients; i++, cl++)
+	{
+		if (cl) {
+			M_SanitizeString(cl->pers.netname, n2);
+			if (!strcmp(n2, s2))
+			{
+				return i;
+			}
+		}
+	}
+
+	// check for partial match.
+	M_SanitizeString((char*)name, s2);
+	for (i = 0, cl = level.clients; i < level.maxclients; i++, cl++)
+	{
+		if (cl) {
+			M_SanitizeString(cl->pers.netname, n2);
+			if (M_PartialMatch(s2, n2))
+			{
+				return i;
+			}
+		}
+	}
+
+	// Try method 2:
+	// check for a name match
+	M_SanitizeString2((char*)name, s2);
+	for (i = 0, cl = level.clients; i < level.maxclients; i++, cl++)
+	{
+		if (cl) {
+			M_SanitizeString2(cl->pers.netname, n2);
+			if (!strcmp(n2, s2))
+			{
+				return i;
+			}
+		}
+	}
+
+	// check for partial match.
+	M_SanitizeString2((char*)name, s2);
+	for (i = 0, cl = level.clients; i < level.maxclients; i++, cl++)
+	{
+		if (cl) {
+			M_SanitizeString2(cl->pers.netname, n2);
+			if (M_PartialMatch(s2, n2))
+			{
+				return i;
+			}
+		}
+	}
+
+	return -1;
+}
+
+void Cmd_amTeleport_f(gentity_t* ent)
+{
+	vec3_t location;
+	vec3_t forward;
+	vec3_t origin;
+	vec3_t yaw;
+	int	clientid = -1;
+	int	clientid2 = -1;
+	char	arg1[MAX_STRING_CHARS];
+	char	arg2[MAX_STRING_CHARS];
+	char	buffer[MAX_TOKEN_CHARS];
+
+	if (!CheatsOk(ent)) {
+		return;
+	}
+
+	if (trap_Argc() == 1)
+	{
+		//cm NOTE: This is where you teleport to a the telemark.
+		if (ent->client->pers.amtelemark1 == 0 && ent->client->pers.amtelemark2 == 0 &&
+			ent->client->pers.amtelemark3 == 0 && ent->client->pers.amtelemarkyaw == 0 &&
+			!ent->client->pers.amtelemarkset)
+		{
+			trap_SendServerCommand(ent - g_entities, va("print \"^1You do not have a telemark set.\nUse /amtelemark to establish a telemark.\n\""));
+			return;
+		}
+		else
+		{
+			origin[0] = ent->client->pers.amtelemark1;
+			origin[1] = ent->client->pers.amtelemark2;
+			origin[2] = ent->client->pers.amtelemark3;
+			yaw[0] = 0.0f;
+			yaw[1] = ent->client->pers.amtelemarkyaw;
+			yaw[2] = 0.0f;
+			TeleportPlayer(ent, origin, yaw);
+		}
+	}
+	//cm - Dom
+	//Teleport to player
+	if (trap_Argc() == 2)
+	{
+		trap_Argv(1, arg1, sizeof(arg1));
+		clientid = M_G_ClientNumberFromName(arg1);
+
+		if (clientid == -1)
+		{
+			trap_SendServerCommand(ent - g_entities, va("print \"Can't find client ID for %s\n\"", arg1));
+			return;
+		}
+		if (clientid == -2)
+		{
+			trap_SendServerCommand(ent - g_entities, va("print \"Ambiguous client ID for %s\n\"", arg1));
+			return;
+		}
+		if (clientid >= MAX_CLIENTS || clientid < 0)
+		{
+			trap_SendServerCommand(ent - g_entities, va("print \"Bad client ID for %s\n", arg1));
+			return;
+		}
+		// either we have the client id or the string did not match
+		if (!g_entities[clientid].inuse)
+		{ // check to make sure client slot is in use
+			trap_SendServerCommand(ent - g_entities, va("print \"Client %s is not active\n\"", arg1));
+			return;
+		}
+		if (g_entities[clientid].health <= 0)
+		{
+			return;
+		}
+		if (clientid == ent - g_entities)
+		{
+			trap_SendServerCommand(ent - g_entities, va("print \"^1You can't teleport yourself.\n\""));
+			return;
+		}
+		//Copy their location
+		VectorCopy(g_entities[clientid].client->ps.origin, location);
+		AngleVectors(ent->client->ps.viewangles, forward, NULL, NULL);
+		// set location out in front of your view
+		forward[2] = 0; //no elevation change
+		VectorNormalize(forward);
+		VectorMA(g_entities[clientid].client->ps.origin, 100, forward, location);
+		location[2] += 5; //add just a bit of height???
+		//Teleport you to them
+		TeleportPlayer(ent, location, g_entities[clientid].client->ps.viewangles);
+		G_LogPrintf("Teleport admin command is executed by %s on %s.\n", ent->client->pers.netname, g_entities[clientid].client->pers.netname);
+	}
+	//Teleport player to player
+	if (trap_Argc() == 3)
+	{
+		trap_Argv(1, arg1, sizeof(arg1));
+		trap_Argv(2, arg2, sizeof(arg2));
+		clientid = M_G_ClientNumberFromName(arg1);
+		clientid2 = M_G_ClientNumberFromName(arg2);
+
+		if (clientid == -1)
+		{
+			trap_SendServerCommand(ent - g_entities, va("print \"Can't find client ID for %s\n\"", arg1));
+			return;
+		}
+		if (clientid == -2)
+		{
+			trap_SendServerCommand(ent - g_entities, va("print \"Ambiguous client ID for %s\n\"", arg1));
+			return;
+		}
+
+		if (clientid2 == -1)
+		{
+			trap_SendServerCommand(ent - g_entities, va("print \"Can't find client ID for %s\n\"", arg2));
+			return;
+		}
+		if (clientid2 == -2)
+		{
+			trap_SendServerCommand(ent - g_entities, va("print \"Ambiguous client ID for %s\n\"", arg2));
+			return;
+		}
+		if (clientid >= MAX_CLIENTS || clientid < 0)
+		{
+			trap_SendServerCommand(ent - g_entities, va("print \"Bad client ID for %s\n", arg1));
+			return;
+		}
+		if (clientid2 >= MAX_CLIENTS || clientid2 < 0)
+		{
+			trap_SendServerCommand(ent - g_entities, va("print \"Bad client ID for %s\n", arg1));
+			return;
+		}
+
+		// either we have the client id or the string did not match
+		if (!g_entities[clientid].inuse)
+		{ // check to make sure client slot is in use
+			trap_SendServerCommand(ent - g_entities, va("print \"Client %s is not active\n\"", arg1));
+			return;
+		}
+		if (g_entities[clientid].health <= 0)
+		{
+			return;
+		}
+
+		// either we have the client id or the string did not match
+		if (!g_entities[clientid2].inuse)
+		{ // check to make sure client slot is in use
+			trap_SendServerCommand(ent - g_entities, va("print \"Client %s is not active\n\"", arg2));
+			return;
+		}
+		if (g_entities[clientid2].health <= 0)
+		{
+			return;
+		}
+		if (clientid == clientid2)
+		{
+			trap_SendServerCommand(ent - g_entities, va("print \"Cant teleport client to same client.\n\""));
+			return;
+		}
+		//Copy client 2 origin
+		VectorCopy(g_entities[clientid2].client->ps.origin, location);
+		AngleVectors(g_entities[clientid2].client->ps.viewangles, forward, NULL, NULL);
+		// set location out in front of your view
+		forward[2] = 0; //no elevation change
+		VectorNormalize(forward);
+		VectorMA(g_entities[clientid2].client->ps.origin, 100, forward, location);
+		location[2] += 5; //add just a bit of height???
+		//Teleport you to them
+		TeleportPlayer(&g_entities[clientid], location, g_entities[clientid2].client->ps.viewangles);
+		G_LogPrintf("Teleport admin command is executed by %s on %s.\n", ent->client->pers.netname, g_entities[clientid].client->pers.netname);
+	}
+	//Using manual coordinates
+	if (trap_Argc() == 4)
+	{
+		Admin_Teleport(ent);
+	}
+	//cm - Dom
+	//Teleport player to manual coordinates
+	if (trap_Argc() == 5)
+	{
+		trap_Argv(1, arg1, sizeof(arg1));
+
+		clientid = M_G_ClientNumberFromName(arg1);
+
+
+		if (clientid == -1)
+		{
+			trap_SendServerCommand(ent - g_entities, va("print \"Can't find client ID for %s\n\"", arg1));
+			return;
+		}
+		if (clientid == -2)
+		{
+			trap_SendServerCommand(ent - g_entities, va("print \"Ambiguous client ID for %s\n\"", arg1));
+			return;
+		}
+		if (clientid >= MAX_CLIENTS || clientid < 0)
+		{
+			trap_SendServerCommand(ent - g_entities, va("print \"Bad client ID for %s\n", arg1));
+			return;
+		}
+		// either we have the client id or the string did not match
+		if (!g_entities[clientid].inuse)
+		{ // check to make sure client slot is in use
+			trap_SendServerCommand(ent - g_entities, va("print \"Client %s is not active\n\"", arg1));
+			return;
+		}
+		if (g_entities[clientid].health <= 0)
+		{
+			return;
+		}
+
+		//Taken from Admin_Teleport() with some mods			
+		trap_Argv(2, buffer, sizeof(buffer));
+		origin[0] = atof(buffer);
+		trap_Argv(3, buffer, sizeof(buffer));
+		origin[1] = atof(buffer);
+		trap_Argv(4, buffer, sizeof(buffer));
+		origin[2] = atof(buffer);
+
+		TeleportPlayer(&g_entities[clientid], origin, g_entities[clientid].client->ps.viewangles);
+		G_LogPrintf("Teleport admin command is executed by %s on %s.\n", ent->client->pers.netname, g_entities[clientid].client->pers.netname);
+		return;
+	}
+	return;
+}
+
+// конец кода из опен рп
+
 qboolean saberKnockOutOfHand(gentity_t *saberent, gentity_t *saberOwner, vec3_t velocity);
 
 //[ROQFILES]
@@ -5310,6 +5762,8 @@ void ClientCommand( int clientNum ) {
 		Cmd_SetViewpos_f( ent );
 	else if (Q_stricmp (cmd, "stats") == 0)
 		Cmd_Stats_f( ent );
+	else if (Q_stricmp (cmd, "tele") == 0)
+		Cmd_amTeleport_f(ent);
 	//for convenient powerduel testing in release
 	else if (Q_stricmp(cmd, "killother") == 0 && CheatsOk( ent ))
 	{
