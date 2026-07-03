@@ -3649,6 +3649,20 @@ void ClientThink_real(gentity_t* ent) {
 			G_AddEvent(ent, EV_PRIVATE_DUEL, 0);
 			G_AddEvent(duelAgainst, EV_PRIVATE_DUEL, 0);
 
+			// ===== ВЫДАЧА STAT_DODGE ОБОИМ ИГРОКАМ ===== //выдача 100 очков дефенса победителю и проигравшему
+	// Победителю
+			if (ent->client->ps.stats[STAT_DODGE] < 100)
+			{
+				ent->client->ps.stats[STAT_DODGE] = 100;
+			}
+
+			// Проигравшему
+			if (duelAgainst->client->ps.stats[STAT_DODGE] < 100)
+			{
+				duelAgainst->client->ps.stats[STAT_DODGE] = 100;
+			}
+			// ===== КОНЕЦ БЛОКА =====
+
 			//Winner gets full health.. providing he's still alive
 			if (ent->health > 0 && ent->client->ps.stats[STAT_HEALTH] > 0)
 			{

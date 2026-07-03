@@ -5574,16 +5574,18 @@ void ClientSpawn(gentity_t *ent) {
 			client->enemyTeam = NPCTEAM_ENEMY;
 		}
 	}
-	else 
+	else
 	{
+		// ★★★ ИСПРАВЛЕНИЕ ★★★
+		// Все игроки считаются "союзниками" для NPC с teamowner = NPCTEAM_PLAYER
 		if (client->sess.sessionTeam == TEAM_RED)
 		{
-			client->playerTeam = ent->s.teamowner = NPCTEAM_ENEMY;
-			client->enemyTeam = NPCTEAM_PLAYER;
+			client->playerTeam = ent->s.teamowner = NPCTEAM_PLAYER;   // ← ИСПРАВЛЕНО! Больше не ENEMY
+			client->enemyTeam = NPCTEAM_ENEMY;
 		}
-		else
+		else // TEAM_BLUE или TEAM_FREE
 		{
-			client->playerTeam = ent->s.teamowner = NPCTEAM_PLAYER;
+			client->playerTeam = ent->s.teamowner = NPCTEAM_PLAYER;   // ← ОСТАЕТСЯ PLAYER
 			client->enemyTeam = NPCTEAM_ENEMY;
 		}
 	}

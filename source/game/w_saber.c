@@ -6943,18 +6943,26 @@ GAME_INLINE qboolean CheckSaberDamage(gentity_t *self, int rSaberNum, int rBlade
 	//update/roll mishaps.
 	SabBeh_RunSaberBehavior(self, &mechSelf, otherOwner, &mechOther, tr.endpos, &didHit, hitSaberBlade);
 
-	if(didHit && (!OnSameTeam(self, &g_entities[tr.entityNum]) || g_friendlySaber.integer))
+	if (didHit && (!OnSameTeam(self, &g_entities[tr.entityNum]) || g_friendlySaber.integer))
 	{//deal damage
 		//damage the thing we hit
-		int dflags=0;
-		gentity_t *victim = &g_entities[tr.entityNum];
+		int dflags = 0;
+		gentity_t* victim = &g_entities[tr.entityNum];
 
-		if(G_DoDodge( victim, self, tr.endpos, -1, & dmg, MOD_SABER ))
+		// ===== НАЧАЛО ПАТЧА ===== //убираем айдол демедж
+		// Запрещаем урон от idle/transition анимаций по живым существам
+		// (но сохраняем все остальные эффекты: блоки, столкновения, паррирования)
+		if (idleDamage && victim->client && !self->client->ps.saberInFlight)
 		{
-			//I'm going to return qtrue to prevent the system from continueing to try 
-			//to find an impact.  That could cause multi impact situations otherwise.
-			
-			//add saber impact debounce
+			// Важно: вызываем дебаунс, чтобы не заспамить попаданиями
+			DebounceSaberImpact(self, otherOwner, rSaberNum, rBladeNum, sabimpactentitynum);
+			return qtrue; // Выходим из функции, не вызывая G_Damage()
+		}
+		// ===== КОНЕЦ ПАТЧА =====
+
+		if (G_DoDodge(victim, self, tr.endpos, -1, &dmg, MOD_SABER))
+		{
+			// ... существующий код уклонения
 			DebounceSaberImpact(self, otherOwner, rSaberNum, rBladeNum, sabimpactentitynum);
 			return qtrue;
 		}
